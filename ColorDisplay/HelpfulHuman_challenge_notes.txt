@@ -73,7 +73,7 @@ When the app first starts, I create the json (if it doesn't exist). If the json 
 As the user paginates, they only retrieve the data needed for that particular page (12 elements at a time)
 
 6/28 -> 
-So I accidentally deleted my first draft and wasn't able to restore it so I pretty much rebuilt where I was at from scratch. I did roughly the same process outlined before.
+So I accidentally deleted my first draft and wasn't able to restore it so I pretty much rebuilt where I was at from scratch (which includes yesterday's work + some front end work). I did roughly the same process outlined before.
 I finished the grouping, details view, and Random. A few notes:
 
 For details view I opted for a modal pop-up instead of a new page. 
@@ -113,10 +113,6 @@ I may explore "Group by Color", but at this point I'd rather refine what I alrea
 Published it to a service.
 
 6/29 ->
-Final thoughts - 
-
-Overall somewhat satisfied given the fact I basically had to start over yesterday. 
-
 I spent some time thinking about the group functionality and I came up with some possible implementations:
 
 -Pass through the rgb value for the one that is filtered by and shade/tint that value with a low multiplier to get some shades out
@@ -127,4 +123,17 @@ The pros to the second are basically the opposite - it would include more but ma
 There could also be a combination of the two. Make the threshold relativily small and get a few shades/tints of each.
 
 Created a database today to support the functionality. I think this is where I will end the challenege.
-The database contains the values located in 32RGBValues.JSON.  
+The database contains the values located in 32RGBValues.JSON (the file generated during the script).  
+
+(Also I just realized I actually ended up using 32 as my step instead of 64, but I will keep it as is)
+
+Final thoughts - 
+
+-Overall somewhat satisfied given the fact I basically had to start over yesterday. 
+-Things I would look into improving:
+-> Implement grouping functionality.
+-> Make the entire layout look a bit better. For the time being it looks like a good POC but it is rough. Could use some some polishing.
+-> Color generation algorithm - RGB is not really a linear value, so it may be worth it to investigate a better color generation algorithm that would include more diversity. 
+The current algorithm seems to be dominated by certain colors.
+-> Shading/Tinting algorithm - as mentioned, right now I'm just getting 2 shades/2 tints and calling it a day. May be worth it to investigate a better algo. For instance
+when black is selected, there's no need to get shades for it.
