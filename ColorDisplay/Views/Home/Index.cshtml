@@ -8,7 +8,7 @@
 
 <div id="mainDiv">
     <div id="colorGrid">
-        <partial>@{Html.RenderPartial("_ColorGrid", Model.colors);}</partial>       
+        <partial>@{Html.RenderPartial("_ColorGrid", Model._colors);}</partial>       
     </div>
     <div id="paginationDiv" class="pagination"></div>
     
@@ -104,14 +104,14 @@
         }
 
         function updateData(number) {
-            var url = "Home/GetColors";
+            var url = "Home/Get_colors";
             $('#colorGrid').load(url, { pageNumber: number }, function () {
                 currentPage = number;
                 buildPagination();
             });
         }
 
-        function LoadDetails(red, green, blue) {
+        function loadDetails(red, green, blue) {
             var url = "Home/Details";
             $('#partialViewContent').load(url, { red: red, green: green, blue:blue }, function () {
                 $("#colorModal").modal("show"); 

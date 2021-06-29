@@ -14,49 +14,51 @@ namespace ColorDisplay.Controllers
 {
     public class HomeController : Controller
     {
-        private static int RGBStep = 32; //Can error check this for values < 256
-        private static List<ColorModel> colors = new List<ColorModel>();
-        private static double tintShadeMultiplier = .75;
+        private static int _RGBStep = 32; //Can error check this for values < 256
+        private static List<ColorModel> _colors = new List<ColorModel>();
+        private static double _tintMultiplier = .5;
+        private static double _shadeMultiplier = .75;
+
         public ActionResult Index()
         {
-            string pathToData = Path.Combine(Environment.CurrentDirectory, RGBStep + "RGBValues.json");
+            string pathToData = Path.Combine(Environment.CurrentDirectory, _RGBStep + "RGBValues.json");
             if (!System.IO.File.Exists(pathToData))
             {
                 using (StreamWriter sw = new StreamWriter(pathToData))
                 {
-                    int loopValue = 256 / RGBStep;
+                    int loopValue = 256 / _RGBStep;
                     for (int blue = 0; blue <= loopValue; blue++)
                     {
                         for (int green = 0; green <= loopValue; green++)
                         {
                             for (int red = 0; red <= loopValue; red++)
                             {
-                                ColorModel cm = new ColorModel(red * RGBStep - 1, green * RGBStep - 1, blue * RGBStep - 1);
+                                ColorModel cm = new ColorModel(red * _RGBStep - 1, green * _RGBStep - 1, blue * _RGBStep - 1);
 
                                 
-                                colors.Add(cm);
+                                _colors.Add(cm);
                             }
                         }
                     }
-                    Shuffle(colors, RGBStep);
-                    var allData = JsonConvert.SerializeObject(colors, Formatting.Indented);
+                    Shuffle(_colors, _RGBStep);
+                    var allData = JsonConvert.SerializeObject(_colors, Formatting.Indented);
                     sw.Write(allData);
                 }
             }
             else
             {
-                colors = JsonConvert.DeserializeObject<List<ColorModel>>(System.IO.File.ReadAllText(pathToData));
+                _colors = JsonConvert.DeserializeObject<List<ColorModel>>(System.IO.File.ReadAllText(pathToData));
             }
 
-            IndexViewModel data = new IndexViewModel(colors.GetRange(0, 12), colors.Count());
+            IndexViewModel data = new IndexViewModel(_colors.GetRange(0, 12), _colors.Count());
             return View(data);
         }
 
         [HttpPost]
-        public ActionResult GetColors(int pageNumber)
+        public ActionResult Get_colors(int pageNumber)
         {
-            int remainder = Math.Min(12, colors.Count - (pageNumber - 1) * 12);
-            List<ColorModel> data = colors.GetRange((pageNumber - 1) * 12, remainder);
+            int remainder = Math.Min(12, _colors.Count - (pageNumber - 1) * 12);
+            List<ColorModel> data = _colors.GetRange((pageNumber - 1) * 12, remainder);
             return PartialView("_ColorGrid", data);
         }
 
@@ -68,14 +70,26 @@ namespace ColorDisplay.Controllers
             if (red == -1)
             {
                 Random r = new Random();
-                original = colors.ElementAt(r.Next(0, colors.Count()));
+                original = _colors.ElementAt(r.Next(0, _colors.Count()));
+            }
+            for (int i = 2; i >= 1; i--)
+            {
+                double multiplier = Math.Pow(_shadeMultiplier, i);
+                details.Add(new ColorModel(Convert.ToInt32(red * multiplier), Convert.ToInt32(green * multiplier), Convert.ToInt32(blue * multiplier)));
             }
             details.Add(original);
-            for (int i = 1; i <= 4; i++)
+
+            double lastR = original.red;
+            double lastG = original.green;
+            double lastB = original.blue;          
+            for (int i = 1; i <= 2; i++)
             {
-                double multiplier = Math.Pow(tintShadeMultiplier, i);
-                details.Add(new ColorModel(Convert.ToInt32(red * multiplier), Convert.ToInt32(green * multiplier), Convert.ToInt32(blue * multiplier)));
-            }         
+                lastR = lastR + (255 - lastR) * _tintMultiplier;
+                lastG = lastG + (255 - lastG) * _tintMultiplier;
+                lastB = lastB + (255 - lastB) * _tintMultiplier;
+                details.Add(new ColorModel(Convert.ToInt32(lastR), Convert.ToInt32(lastG), Convert.ToInt32(lastB)));
+            }                                  
+            
             return PartialView("_Details", details);
         }
 

@@ -5,13 +5,13 @@
     <div class="row" style="height:75%">
         <div class="col">
             <div class="tile_no_hover" data-toggle="modal" data-target="#colorModal">
-                <div class="color-swatch" style="background-color:rgb(@Model[0].red, @Model[0].green, @Model[0].blue)"></div>
+                <div class="color-swatch" style="background-color:rgb(@Model[2].red, @Model[2].green, @Model[2].blue)"></div>
                 <div class="info" style="font-size:2vw">@Model[0].HexCode</div>
             </div>
         </div>
     </div>
     <div class="equal row" style="height:25%">
-        @for (int i = 0; i <= 4; i++)
+        @for (int i = 4; i >= 0; i--)
         {
             <div class="span2">
                 <div class="tile_no_hover" data-toggle="modal" data-target="#colorModal">
