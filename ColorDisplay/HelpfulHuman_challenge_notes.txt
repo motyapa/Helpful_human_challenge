@@ -1,0 +1,109 @@
+6/25/21 - >
+
+Took a quick glance and thought about it a little bit. Will start on this when I get back from my trip.
+Just highlighting my thought process as I progress through this challenge to give you a glimpse into how I approach problems.
+
+Initial thoughts:
+ 
+Color generation algorithim - I want to explore generating as the user goes through the pages. So for instance if each page displays 24 entries, on page 1 I will generate and display 
+
+RGB(1 * n, 0, 0)
+RGB(2 * n, 0, 0)
+...
+RGB(24 * n, 0, 0)
+
+Then when the user wants to go page 2 I will generate and display
+
+RGB(25 * n, 0, 0)
+...
+RGB(48 * n, 0, 0)
+
+where n can be some factor (for instance it might not be the most benefecial to display literally every combination of rgb values as then there will be 256^3 entries), 
+however this highlights the benefit of this approach, since I will only be generating 24 per page instead of needing to mess around with tons of entries. 
+
+This also runs into the issue & I need to think about this - it will group things by color (which I can use to later address "Group By Color"). How do I want to initially group everything?
+This algorithm on the main page will basically be colors getting slightly more and more red, then at a certain point will break and get slightly more green, etc. I can also do something like this
+
+It seems the most aesthetically pleasing solution would be a sort of random distrubition of colors, which would be relatively simple to implement, but may be the most memory/speed intensive
+as well as the hardest to replicate consistently (Color generation script guarantees same colors and order). This will need to store all of the colors already generated to avoid duplicates
+and compare every procedurally generated color to all of the ones already encountered (hashset). In other words its the slowest and most memory intensive solution but likely the most aesthetically pleasing one.
+
+Now that I typed all of this out, I see a third approach - I will randomly generate all of the colors into some sort of storage file (database) and then just pull from there.
+
+So for the color generation I have three ideas so far:
+
++------------------------+-----------------------------------------+-------------------------------------------------+
+| Approach               | Pros                                    | Cons                                            |
++------------------------+-----------------------------------------+-------------------------------------------------+
+| Randomly generated     | -Likely the most aesthetically pleasing | -Memory & Speed intensive                       |
+|                        |                                         | -How do I get the same results over and over?   |
++------------------------+-----------------------------------------+-------------------------------------------------+
+| Procedurally generated | -Fast, efficient                        | -Likely not aesthetically pleasing              |
+|                        | -Predictable results                    |                                                 |
++------------------------+-----------------------------------------+-------------------------------------------------+
+| Randomly generated     | -Only need to run once                  | -Need to store data externally                  |
+| into storage           | -Aesthetically pleasing                 | -If for some reason lose the data, can't repeat |
+|                        | -Consistent if read from the same file  | the exact same generation as last time          |
++------------------------+-----------------------------------------+-------------------------------------------------+
+
+This leads into another question - how many colors do I want? In other words, when generating the rgb, what interval do I want for the rgb values? 
+If I do an interval of 1, I will get 256 * 256 * 256 values. This is a lot of data to play with, and I think would give a potential user choice paralysis, 
+and is also just unnecessary (is 0,0,1 really that much different from 0,0,0?)
+Large choices will also make the pagination look awkward (in the case of 32 - I would have 729 values, 24 per page will give me ~31 pages so I would need to include ... btwn page numbers)
+
+For the purposes of this challenge I will use an interval of 64. This seems reasonable as this will give me (256/64+1)^3 = 125 values (I'm really just including this to show it is something I considered): 
+-small enough to give a variety - (127, 0, 0) and (191, 0, 0) are pretty close, but different enough to the eye
+-enough for a user to comb over and display in a reasonable amount of pages (11ish)
+
+One issue I see encountering is how do I define colors (i.e. at what point does "red" stop being "red" and become "orange")
+
+One solution is to overlap the search results. I.E. Some of the fringe cases for red will show up when the user filters by orange and vice versa.
+
+Table of color names:
+
+https://www.rapidtables.com/web/color/RGB_Color.html
+
+6/27 -> 
+I did some research and remembered that I can use a seed when generating the randomized file to eliminate the con of not being able to repeat 
+NOTE - In a real world scenario I would add the data to a database table, but for this challenge I am creating a json file to read the data from.
+
+Color generation algorithm - O(n^3) with an upper cap of O(256^3).
+Shuffle algorithm - O(n) time complexity, uses the same List as the one generated so no extra memory being used there.
+
+When the app first starts, I create the json (if it doesn't exist). If the json exists, it deserializes it. In both instances then it saves it to a private variable with all of the RGB values.
+As the user paginates, they only retrieve the data needed for that particular page (12 elements at a time)
+
+6/28 -> 
+So I accidentally deleted my first draft and wasn't able to restore it so I pretty much rebuilt where I was at from scratch. I did roughly the same process outlined before.
+I finished the grouping, details view, and Random. A few notes:
+
+For details view I opted for a modal pop-up instead of a new page. 
+I chose a pop-up for a few reasons - 
+1) I thought it would be simpler to implement
+2) I thought it might be nicer from a user perspective, it lets the user view the swatches and their gradients, then quickly exit 
+3) No data has to be retrieved/cached for the user when they hit back/clear. 
+
+My implementation has a few drawbacks, mainly I had to pass the rgb values through to the controller and generate the model again. I couldn't figure out how to just pass the model through.
+
+I attempted to add as much responsiveness as I could think of. For instance, when hovering over a page number the cursor changes to a click cursor and highlights the cell. Same with the side bar.
+When the user hovers over a swatch, the swatch gets slightly larger and the cursor becomes a click cursor.
+I checked in different ress (800 x 600).
+
+If the window is resized, the objects get resized as well (though if the browser becomes too small some weird stuff starts to happen with the grid and it's not working in mobile)
+
+It didn't seem necessary to make the swatches in the details view responsive to hover.
+
+The get Random is rather straightforward, I do a check in the getDetails method if red is -1 (the only place that red = -1 is passed is when the user opts for a random selection).
+I considered doing it in a seperate method, but for simplicity I just used that since it already uses the pop up and is basically the same for tinting/shading.
+
+At this point the "core" and "stretch" functionality is done and these stretch goals (I believe I replicated the design sufficiently well):
+-Add tints/shades in detail view 
+--NOTE - I hardcoded the tint/shading values but it may be more beneficial to generate these values based on how close the rgb values are to either extreme
+
+-Color generation script guarantees same colors and order
+
+For the remaining stretch goals:
+-Interaction design - not quite sure what this entails honestly
+-Not experienced with GraphQL, anyway I'm loading data from JSON for this exercise (Just want to reiterate - in a real world scenario I would read from a database)
+
+I may explore "Group by Color", but at this point I'd rather refine what I already have.
