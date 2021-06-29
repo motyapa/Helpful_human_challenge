@@ -111,3 +111,23 @@ For the remaining stretch goals:
 
 I may explore "Group by Color", but at this point I'd rather refine what I already have.
 Published it to a service.
+
+6/29 ->
+Final thoughts - 
+
+Overall somewhat satisfied given the roadblock I hit yesterday. 
+
+If I had more time, I would work on the following functionalites:
+-Porting data over to a database
+-Group by functionality
+
+I spent some time thinking about the group functionality and I came up with some possible implementations:
+
+-Pass through the rgb value for the one that is filtered by and shade/tint that value with a low multiplier to get some shades out
+-Pass through the rgb value and only include colors that are a certain "distance" away - i.e. sqrt((r - r1)^2 + (g - g2)^2 + (b - b2)^2) are within some threshold.
+
+Pros to the first are that it wouldn't include nearly as many false positives, but the selection will be low. 
+The pros to the second are basically the opposite - it would include more but may contain more false positives.
+There could also be a combination of the two. Make the threshold relativily small and get a few shades/tints of each.
+
+However, I must submit this version due to time constraints.
