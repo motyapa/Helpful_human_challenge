@@ -55,6 +55,8 @@ For the purposes of this challenge I will use an interval of 64. This seems reas
 -small enough to give a variety - (127, 0, 0) and (191, 0, 0) are pretty close, but different enough to the eye
 -enough for a user to comb over and display in a reasonable amount of pages (11ish)
 
+NOTE (see 6/29)-> I actually ended up using 32 as my step
+
 One issue I see encountering is how do I define colors (i.e. at what point does "red" stop being "red" and become "orange")
 
 One solution is to overlap the search results. I.E. Some of the fringe cases for red will show up when the user filters by orange and vice versa.
