@@ -115,7 +115,7 @@ namespace ColorDisplay.Controllers
             {
                 con.Open();
                 SqlCommand command = new SqlCommand();
-                command.CommandText = "SELECT TOP 1 * FROM dbo.Colors ORDER BY RAND();";
+                command.CommandText = "SELECT TOP 1 * FROM dbo.Colors ORDER BY NEWID();";
                 command.Connection = con;
                 SqlDataReader reader = command.ExecuteReader();
                 if (reader.HasRows)
