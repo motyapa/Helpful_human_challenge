@@ -14,7 +14,7 @@ namespace ColorDisplay.Controllers
 {
     public class HomeController : Controller
     {
-        private static int _RGBStep = 32; //The difference in RGB values
+        private static int _RGBStep = 64; //The difference in RGB values
         private static List<ColorModel> _colors = new List<ColorModel>(); //Where all of the generated colors are stored
         private static double _tintMultiplier = .5; 
         private static double _shadeMultiplier = .75;
