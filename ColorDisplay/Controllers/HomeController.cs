@@ -16,6 +16,7 @@ namespace ColorDisplay.Controllers
     {
         private static int RGBStep = 32; //Can error check this for values < 256
         private static List<ColorModel> colors = new List<ColorModel>();
+        private static double tintShadeMultiplier = .75;
         public ActionResult Index()
         {
             string pathToData = Path.Combine(Environment.CurrentDirectory, RGBStep + "RGBValues.json");
@@ -62,13 +63,20 @@ namespace ColorDisplay.Controllers
         [HttpPost]
         public ActionResult Details(int red, int green, int blue)
         {
+            List<ColorModel> details = new List<ColorModel>();
+            ColorModel original = new ColorModel(red, green, blue);
             if (red == -1)
             {
                 Random r = new Random();
-                ColorModel random = colors.ElementAt(r.Next(0, colors.Count()));
-                return PartialView("_Details", random);
+                original = colors.ElementAt(r.Next(0, colors.Count()));
             }
-            return PartialView("_Details", new ColorModel(red, green, blue));
+            details.Add(original);
+            for (int i = 1; i <= 4; i++)
+            {
+                double multiplier = Math.Pow(tintShadeMultiplier, i);
+                details.Add(new ColorModel(Convert.ToInt32(red * multiplier), Convert.ToInt32(green * multiplier), Convert.ToInt32(blue * multiplier)));
+            }         
+            return PartialView("_Details", details);
         }
 
         public static void Shuffle<T>(IList<T> list, int seed)

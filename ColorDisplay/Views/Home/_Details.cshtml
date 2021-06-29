@@ -1,23 +1,23 @@
 ﻿@using ColorDisplay.Models;
 
-@model ColorModel;
+@model List<ColorModel>;
 <div class="container" id="DetailsContainer">
     <div class="row" style="height:75%">
         <div class="col">
             <div class="tile_no_hover" data-toggle="modal" data-target="#colorModal">
-                <div class="color-swatch" style="background-color:rgb(@Model.red, @Model.green, @Model.blue)"></div>
-                <div class="info" style="font-size:2vw">@Model.HexCode</div>
+                <div class="color-swatch" style="background-color:rgb(@Model[0].red, @Model[0].green, @Model[0].blue)"></div>
+                <div class="info" style="font-size:2vw">@Model[0].HexCode</div>
             </div>
         </div>
     </div>
     <div class="equal row" style="height:25%">
-        @for (int i = 5; i >= 1; i--)
+        @for (int i = 0; i <= 4; i++)
         {
             <div class="span2">
                 <div class="tile_no_hover" data-toggle="modal" data-target="#colorModal">
-                    <div class="color-swatch" style="background-color:rgba(@Model.red, @Model.green, @Model.blue, @(i * .2))"></div>
+                    <div class="color-swatch" style="background-color:rgb(@Model[i].red, @Model[i].green, @Model[i].blue)"></div>
                     <div class="info">
-                        Alpha: @(Convert.ToInt32(i * .2 * 100))% @*Would occasionally get a weird bug of it displaying as 60.00000000000001%*@
+                        @Model[i].HexCode
                     </div>
                 </div>
             </div>
