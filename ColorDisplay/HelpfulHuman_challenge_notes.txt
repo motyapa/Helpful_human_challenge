@@ -137,3 +137,4 @@ Final thoughts -
 The current algorithm seems to be dominated by certain colors.
 -> Shading/Tinting algorithm - as mentioned, right now I'm just getting 2 shades/2 tints and calling it a day. May be worth it to investigate a better algo. For instance
 when black is selected, there's no need to get shades for it.
+-> The logo in the upper left hand is not ultra responsive. I would look into that as well.
