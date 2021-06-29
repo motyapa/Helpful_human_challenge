@@ -15,10 +15,16 @@
     </header>
     <div class="main">
         <div class="sidebar">
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <button type="button" class="btn btn-light" onclick="LoadDetails(-1, -1, -1)">Random</button>
+            <a href="#">Red</a>
+            <a href="#">Orange</a>
+            <a href="#">Yellow</a>
+            <a href="#">Green</a>
+            <a href="#">Blue</a>
+            <a href="#">Purple</a>
+            <a href="#">Brown</a>
+            <a href="#">Gray</a>
+            
         </div>
 
         <div class="mainContainer">
@@ -57,6 +63,15 @@
         padding-top: 2vh;
         padding-left: 15%;
         text-align: center;
+    }
+
+    .sidebar button {
+        width: 75%;
+        margin: auto;
+        margin-left: 12.5%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        border: 2px solid black;
     }
 
     .sidebar {

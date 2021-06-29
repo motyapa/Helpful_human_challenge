@@ -62,9 +62,14 @@ namespace ColorDisplay.Controllers
         [HttpPost]
         public ActionResult Details(int red, int green, int blue)
         {
+            if (red == -1)
+            {
+                Random r = new Random();
+                ColorModel random = colors.ElementAt(r.Next(0, colors.Count()));
+                return PartialView("_Details", random);
+            }
             return PartialView("_Details", new ColorModel(red, green, blue));
         }
-        
 
         public static void Shuffle<T>(IList<T> list, int seed)
         {
