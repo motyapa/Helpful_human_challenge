@@ -24,7 +24,8 @@
                 </div>
             </div>
         </div>
-        if (i % 4 == 3)
+        @*Close row every 4 elements or when the for loop ends*@
+        if (i % 4 == 3 || i == Model.Count - 1)
         {
             @:</div>
         }
