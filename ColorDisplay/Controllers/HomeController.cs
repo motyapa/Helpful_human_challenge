@@ -55,7 +55,7 @@ namespace ColorDisplay.Controllers
         }
 
         [HttpPost]
-        public ActionResult Get_colors(int pageNumber)
+        public ActionResult Colors(int pageNumber)
         {
             int remainder = Math.Min(12, _colors.Count - (pageNumber - 1) * 12);
             List<ColorModel> data = _colors.GetRange((pageNumber - 1) * 12, remainder);

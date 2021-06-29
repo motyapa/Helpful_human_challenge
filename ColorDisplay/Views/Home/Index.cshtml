@@ -104,7 +104,7 @@
         }
 
         function updateData(number) {
-            var url = "Home/Get_colors";
+            var url = "Home/Colors";
             $('#colorGrid').load(url, { pageNumber: number }, function () {
                 currentPage = number;
                 buildPagination();
