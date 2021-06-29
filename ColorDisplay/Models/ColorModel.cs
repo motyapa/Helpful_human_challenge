@@ -8,6 +8,10 @@ namespace ColorDisplay.Models
 {
     public class ColorModel
     {
+        //A little bit awkward during the generation. Assuming RGBStep = 32 we need to add elements
+        //with values like 0, 31, 63... 
+        //The one out of place is 0, so I decided to add elements of the form -1 + RGBstep * n
+        //and increment if the value is -1.
         public ColorModel(int red, int green, int blue)
         {
             if (red == -1)

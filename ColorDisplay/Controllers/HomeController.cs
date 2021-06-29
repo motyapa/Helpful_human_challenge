@@ -54,6 +54,7 @@ namespace ColorDisplay.Controllers
             }
 
             //Only use the data we need - in a real world example I would fetch only the first 12 results from a database
+            //Since we only use 12 elements at a time, to know how many pages are necessary we need a count of ALL colors generated.
             IndexViewModel data = new IndexViewModel(_colors.GetRange(0, 12), _colors.Count());
             return View(data);
         }
