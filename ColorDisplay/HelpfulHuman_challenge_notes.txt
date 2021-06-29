@@ -115,11 +115,7 @@ Published it to a service.
 6/29 ->
 Final thoughts - 
 
-Overall somewhat satisfied given the roadblock I hit yesterday. 
-
-If I had more time, I would work on the following functionalites:
--Porting data over to a database
--Group by functionality
+Overall somewhat satisfied given the fact I basically had to start over yesterday. 
 
 I spent some time thinking about the group functionality and I came up with some possible implementations:
 
@@ -130,4 +126,5 @@ Pros to the first are that it wouldn't include nearly as many false positives, b
 The pros to the second are basically the opposite - it would include more but may contain more false positives.
 There could also be a combination of the two. Make the threshold relativily small and get a few shades/tints of each.
 
-However, I must submit this version due to time constraints.
+Created a database today to support the functionality. I think this is where I will end the challenege.
+The database contains the values located in 32RGBValues.JSON.  

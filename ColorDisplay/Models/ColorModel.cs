@@ -8,6 +8,7 @@ namespace ColorDisplay.Models
 {
     public class ColorModel
     {
+        //Used during the script generation
         //A little bit awkward during the generation. Assuming RGBStep = 32 we need to add elements
         //with values like 0, 31, 63... 
         //The one out of place is 0, so I decided to add elements of the form -1 + RGBstep * n
@@ -35,6 +36,15 @@ namespace ColorDisplay.Models
 
             HexCode = red.ToString("X2") + green.ToString("X2") + blue.ToString("X2");
         }
+
+        //Used when retrieving data from DB
+        public ColorModel(int red, int green, int blue, string HexCode) {
+            this.red = red;
+            this.green = green;
+            this.blue = blue;
+            this.HexCode = HexCode;
+        }
+
         [JsonProperty("red")]
         public int red { get; set; }
         [JsonProperty("green")]
