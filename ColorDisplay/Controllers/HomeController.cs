@@ -14,7 +14,7 @@ namespace ColorDisplay.Controllers
 {
     public class HomeController : Controller
     {
-        private static int _RGBStep = 64; //The difference in RGB values
+        private static int _RGBStep = 32; //The difference in RGB values
         private static List<ColorModel> _colors = new List<ColorModel>(); //Where all of the generated colors are stored
         private static double _tintMultiplier = .5; 
         private static double _shadeMultiplier = .75;
@@ -62,12 +62,13 @@ namespace ColorDisplay.Controllers
         //Given a pagenumber, return the 12 (# of elements displayed) relevent to that page
         [HttpPost]
         public ActionResult Colors(int pageNumber)
-        {
+        {        
             //In the instance of the last page, there can be less than 12 elements
             int remainder = Math.Min(12, _colors.Count - (pageNumber - 1) * 12);
 
             //Only use the data we need - in a real world example I would fetch only the 12 results needed from a database
             List<ColorModel> data = _colors.GetRange((pageNumber - 1) * 12, remainder);
+            
             return PartialView("_ColorGrid", data);
         }
 

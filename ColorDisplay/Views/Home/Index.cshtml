@@ -15,7 +15,7 @@
 
 <div id="mainDiv">
     <div id="colorGrid">
-        <partial>@{Html.RenderPartial("_ColorGrid", Model._colors);}</partial>       
+        <partial>@{Html.RenderPartial("_ColorGrid", Model.colors);}</partial>       
     </div>
     <div id="paginationDiv" class="pagination"></div>  
 </div>
@@ -120,7 +120,7 @@
         //Get the detail for a particular swatch that was clicked to display in the modal
         function loadDetails(red, green, blue) {
             var url = "Home/Details";
-            $('#partialViewContent').load(url, { red: red, green: green, blue:blue }, function () {
+            $('#partialViewContent').load(url, { red: red, green: green, blue: blue }, function () {
                 $("#colorModal").modal("show"); 
             });
         }
