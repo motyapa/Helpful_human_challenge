@@ -16,7 +16,6 @@ namespace ColorDisplay.Controllers
     {
         private static int RGBStep = 32; //Can error check this for values < 256
         private static List<ColorModel> colors = new List<ColorModel>();
-
         public ActionResult Index()
         {
             string pathToData = Path.Combine(Environment.CurrentDirectory, RGBStep + "RGBValues.json");
