@@ -1,0 +1,57 @@
+﻿@using WebApplication2.Models;
+ 
+@{
+    ViewData["Title"] = "_ColorGrid";
+}
+
+@model List<ColorModel>
+
+<div class="container">
+    @for (int i = 0; i < Model.Count; i++) {
+        if (i % 4 == 0)
+        {
+            @:<div class="row">
+        }
+        <div class="col-sm-3">
+            <div class="tile">
+                <div class="color-swatch" style="background-color:rgb(@Model[i].red, @Model[i].green, @Model[i].blue)"></div>
+                <div class="info">@Model[i].HexCode</div>
+            </div>
+        </div>
+        if (i % 4 == 3)
+        {
+            @:</div>
+        }
+    }
+</div>
+
+<style>
+    .container {
+        height:50vh;
+    }
+
+    .row {
+        height: 33%;
+    }
+
+    .tile {
+        height: 95%;
+        border-radius: 5px;
+        border: 2px solid black;
+        z-index:0;
+    }
+
+    .tile:hover {
+        transform: scale(1.1);
+        z-index:1;
+    }
+
+    .color-swatch {
+        height: 80%
+    }
+
+    .info {
+        height: 20%;
+    }
+</style>
+

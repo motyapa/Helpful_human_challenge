@@ -1,0 +1,119 @@
+﻿@using WebApplication2.Models;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IndexViewModel;
+
+<div id="mainDiv">
+    <div id="colorGrid"><partial>@{Html.RenderPartial("_ColorGrid", Model.colors);}</partial></div>
+    <div id="paginationDiv" class="pagination"></div>
+</div>
+
+<script>
+    var currentPage = 1;
+    var totalPages = Math.ceil((@Model.total) / 12);
+
+    $(document).ready(function() {
+        buildPagination();
+    });
+
+    function buildPagination() {
+        var HTML = "";
+        if (totalPages <= 6) {
+            for (i = 1; i <= totalPages; i++) {
+              HTML += addButton(i);
+          }
+        }
+        else {
+
+            // Always print first page button
+            HTML += addButton("1");
+
+            // Print "..." only if currentPage is > 3
+            if (currentPage > 3) {
+                HTML += "<a>...</a>";
+            }
+
+            // special case where last page is selected...
+            if (currentPage == totalPages) {
+                HTML += addButton(currentPage - 2);
+            }
+
+            // Print previous number button if currentPage > 2
+            if (currentPage > 2) {
+               HTML += addButton(currentPage - 1);
+            }
+
+            //Print current page number button as long as it not the first or last page
+            if (currentPage != 1 && currentPage != totalPages) {
+               HTML += addButton(currentPage);
+            }
+
+            //print next number button if currentPage < lastPage - 1
+            if (currentPage < totalPages - 1) {
+                HTML += addButton(currentPage + 1);
+            }
+
+            // special case where first page is selected...
+            if (currentPage == 1) {
+                HTML += addButton(currentPage + 2);
+            }
+
+            //print "..." if currentPage is < lastPage -2
+            if (currentPage < totalPages - 2) {
+               HTML += "<a>...</a>";
+            }
+
+            //Always print last page button if there is more than 1 page
+            HTML += addButton(totalPages);
+        }
+
+        document.getElementById("paginationDiv").innerHTML = HTML;
+    }
+
+    function addButton(number) {
+        var HTML = "<a"
+        if (number == currentPage) {
+            HTML +=" class =\"active\""
+        }
+        HTML += " onclick =\"updateData(" + number + ")\">" + (number) + "</a>";
+        return HTML;
+    }
+
+    function updateData(number) {
+        var url = "Home/GetColors";
+        $('#colorGrid').load(url, { pageNumber: number });
+        currentPage = number;
+        buildPagination();
+    }
+</script>
+
+<style>
+    .pagination {
+        display: inline-block;
+    }
+
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    .pagination a.active {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .pagination a:hover:not(.active) {
+        background-color: #ddd;
+        border-radius: 5px;
+    }
+
+    #mainDiv {
+        text-align: center;
+    }
+</style>

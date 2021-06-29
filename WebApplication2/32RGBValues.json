@@ -1,0 +1,4376 @@
+[
+  {
+    "red": 63,
+    "green": 223,
+    "blue": 159,
+    "HexCode": "3FDF9F"
+  },
+  {
+    "red": 127,
+    "green": 255,
+    "blue": 255,
+    "HexCode": "7FFFFF"
+  },
+  {
+    "red": 223,
+    "green": 95,
+    "blue": 0,
+    "HexCode": "DF5F00"
+  },
+  {
+    "red": 191,
+    "green": 31,
+    "blue": 191,
+    "HexCode": "BF1FBF"
+  },
+  {
+    "red": 159,
+    "green": 0,
+    "blue": 0,
+    "HexCode": "9F0000"
+  },
+  {
+    "red": 223,
+    "green": 191,
+    "blue": 95,
+    "HexCode": "DFBF5F"
+  },
+  {
+    "red": 191,
+    "green": 223,
+    "blue": 95,
+    "HexCode": "BFDF5F"
+  },
+  {
+    "red": 223,
+    "green": 127,
+    "blue": 159,
+    "HexCode": "DF7F9F"
+  },
+  {
+    "red": 63,
+    "green": 0,
+    "blue": 31,
+    "HexCode": "3F001F"
+  },
+  {
+    "red": 63,
+    "green": 95,
+    "blue": 63,
+    "HexCode": "3F5F3F"
+  },
+  {
+    "red": 223,
+    "green": 127,
+    "blue": 127,
+    "HexCode": "DF7F7F"
+  },
+  {
+    "red": 0,
+    "green": 255,
+    "blue": 127,
+    "HexCode": "00FF7F"
+  },
+  {
+    "red": 127,
+    "green": 159,
+    "blue": 159,
+    "HexCode": "7F9F9F"
+  },
+  {
+    "red": 31,
+    "green": 0,
+    "blue": 127,
+    "HexCode": "1F007F"
+  },
+  {
+    "red": 223,
+    "green": 0,
+    "blue": 95,
+    "HexCode": "DF005F"
+  },
+  {
+    "red": 159,
+    "green": 159,
+    "blue": 223,
+    "HexCode": "9F9FDF"
+  },
+  {
+    "red": 223,
+    "green": 31,
+    "blue": 127,
+    "HexCode": "DF1F7F"
+  },
+  {
+    "red": 95,
+    "green": 95,
+    "blue": 63,
+    "HexCode": "5F5F3F"
+  },
+  {
+    "red": 159,
+    "green": 255,
+    "blue": 127,
+    "HexCode": "9FFF7F"
+  },
+  {
+    "red": 223,
+    "green": 95,
+    "blue": 63,
+    "HexCode": "DF5F3F"
+  },
+  {
+    "red": 223,
+    "green": 95,
+    "blue": 191,
+    "HexCode": "DF5FBF"
+  },
+  {
+    "red": 127,
+    "green": 127,
+    "blue": 63,
+    "HexCode": "7F7F3F"
+  },
+  {
+    "red": 191,
+    "green": 255,
+    "blue": 0,
+    "HexCode": "BFFF00"
+  },
+  {
+    "red": 95,
+    "green": 63,
+    "blue": 159,
+    "HexCode": "5F3F9F"
+  },
+  {
+    "red": 0,
+    "green": 95,
+    "blue": 159,
+    "HexCode": "005F9F"
+  },
+  {
+    "red": 127,
+    "green": 127,
+    "blue": 223,
+    "HexCode": "7F7FDF"
+  },
+  {
+    "red": 191,
+    "green": 95,
+    "blue": 95,
+    "HexCode": "BF5F5F"
+  },
+  {
+    "red": 191,
+    "green": 31,
+    "blue": 223,
+    "HexCode": "BF1FDF"
+  },
+  {
+    "red": 255,
+    "green": 127,
+    "blue": 31,
+    "HexCode": "FF7F1F"
+  },
+  {
+    "red": 0,
+    "green": 255,
+    "blue": 95,
+    "HexCode": "00FF5F"
+  },
+  {
+    "red": 159,
+    "green": 191,
+    "blue": 191,
+    "HexCode": "9FBFBF"
+  },
+  {
+    "red": 223,
+    "green": 127,
+    "blue": 191,
+    "HexCode": "DF7FBF"
+  },
+  {
+    "red": 127,
+    "green": 31,
+    "blue": 63,
+    "HexCode": "7F1F3F"
+  },
+  {
+    "red": 255,
+    "green": 95,
+    "blue": 31,
+    "HexCode": "FF5F1F"
+  },
+  {
+    "red": 0,
+    "green": 127,
+    "blue": 159,
+    "HexCode": "007F9F"
+  },
+  {
+    "red": 31,
+    "green": 31,
+    "blue": 255,
+    "HexCode": "1F1FFF"
+  },
+  {
+    "red": 223,
+    "green": 95,
+    "blue": 255,
+    "HexCode": "DF5FFF"
+  },
+  {
+    "red": 159,
+    "green": 159,
+    "blue": 159,
+    "HexCode": "9F9F9F"
+  },
+  {
+    "red": 223,
+    "green": 191,
+    "blue": 223,
+    "HexCode": "DFBFDF"
+  },
+  {
+    "red": 127,
+    "green": 31,
+    "blue": 127,
+    "HexCode": "7F1F7F"
+  },
+  {
+    "red": 255,
+    "green": 255,
+    "blue": 63,
+    "HexCode": "FFFF3F"
+  },
+  {
+    "red": 63,
+    "green": 159,
+    "blue": 31,
+    "HexCode": "3F9F1F"
+  },
+  {
+    "red": 255,
+    "green": 0,
+    "blue": 95,
+    "HexCode": "FF005F"
+  },
+  {
+    "red": 0,
+    "green": 255,
+    "blue": 159,
+    "HexCode": "00FF9F"
+  },
+  {
+    "red": 63,
+    "green": 0,
+    "blue": 223,
+    "HexCode": "3F00DF"
+  },
+  {
+    "red": 159,
+    "green": 159,
+    "blue": 255,
+    "HexCode": "9F9FFF"
+  },
+  {
+    "red": 63,
+    "green": 63,
+    "blue": 223,
+    "HexCode": "3F3FDF"
+  },
+  {
+    "red": 191,
+    "green": 191,
+    "blue": 0,
+    "HexCode": "BFBF00"
+  },
+  {
+    "red": 191,
+    "green": 127,
+    "blue": 31,
+    "HexCode": "BF7F1F"
+  },
+  {
+    "red": 223,
+    "green": 223,
+    "blue": 0,
+    "HexCode": "DFDF00"
+  },
+  {
+    "red": 63,
+    "green": 159,
+    "blue": 0,
+    "HexCode": "3F9F00"
+  },
+  {
+    "red": 223,
+    "green": 159,
+    "blue": 127,
+    "HexCode": "DF9F7F"
+  },
+  {
+    "red": 63,
+    "green": 223,
+    "blue": 127,
+    "HexCode": "3FDF7F"
+  },
+  {
+    "red": 127,
+    "green": 63,
+    "blue": 159,
+    "HexCode": "7F3F9F"
+  },
+  {
+    "red": 191,
+    "green": 159,
+    "blue": 127,
+    "HexCode": "BF9F7F"
+  },
+  {
+    "red": 255,
+    "green": 95,
+    "blue": 255,
+    "HexCode": "FF5FFF"
+  },
+  {
+    "red": 255,
+    "green": 0,
+    "blue": 223,
+    "HexCode": "FF00DF"
+  },
+  {
+    "red": 255,
+    "green": 95,
+    "blue": 223,
+    "HexCode": "FF5FDF"
+  },
+  {
+    "red": 223,
+    "green": 0,
+    "blue": 255,
+    "HexCode": "DF00FF"
+  },
+  {
+    "red": 159,
+    "green": 0,
+    "blue": 223,
+    "HexCode": "9F00DF"
+  },
+  {
+    "red": 0,
+    "green": 63,
+    "blue": 63,
+    "HexCode": "003F3F"
+  },
+  {
+    "red": 0,
+    "green": 0,
+    "blue": 95,
+    "HexCode": "00005F"
+  },
+  {
+    "red": 223,
+    "green": 31,
+    "blue": 223,
+    "HexCode": "DF1FDF"
+  },
+  {
+    "red": 127,
+    "green": 63,
+    "blue": 127,
+    "HexCode": "7F3F7F"
+  },
+  {
+    "red": 31,
+    "green": 95,
+    "blue": 223,
+    "HexCode": "1F5FDF"
+  },
+  {
+    "red": 255,
+    "green": 255,
+    "blue": 191,
+    "HexCode": "FFFFBF"
+  },
+  {
+    "red": 63,
+    "green": 31,
+    "blue": 63,
+    "HexCode": "3F1F3F"
+  },
+  {
+    "red": 31,
+    "green": 31,
+    "blue": 63,
+    "HexCode": "1F1F3F"
+  },
+  {
+    "red": 63,
+    "green": 0,
+    "blue": 63,
+    "HexCode": "3F003F"
+  },
+  {
+    "red": 95,
+    "green": 191,
+    "blue": 223,
+    "HexCode": "5FBFDF"
+  },
+  {
+    "red": 191,
+    "green": 255,
+    "blue": 63,
+    "HexCode": "BFFF3F"
+  },
+  {
+    "red": 223,
+    "green": 223,
+    "blue": 127,
+    "HexCode": "DFDF7F"
+  },
+  {
+    "red": 63,
+    "green": 223,
+    "blue": 255,
+    "HexCode": "3FDFFF"
+  },
+  {
+    "red": 95,
+    "green": 159,
+    "blue": 95,
+    "HexCode": "5F9F5F"
+  },
+  {
+    "red": 159,
+    "green": 127,
+    "blue": 0,
+    "HexCode": "9F7F00"
+  },
+  {
+    "red": 0,
+    "green": 191,
+    "blue": 223,
+    "HexCode": "00BFDF"
+  },
+  {
+    "red": 255,
+    "green": 127,
+    "blue": 95,
+    "HexCode": "FF7F5F"
+  },
+  {
+    "red": 223,
+    "green": 95,
+    "blue": 159,
+    "HexCode": "DF5F9F"
+  },
+  {
+    "red": 95,
+    "green": 223,
+    "blue": 31,
+    "HexCode": "5FDF1F"
+  },
+  {
+    "red": 0,
+    "green": 191,
+    "blue": 191,
+    "HexCode": "00BFBF"
+  },
+  {
+    "red": 0,
+    "green": 0,
+    "blue": 31,
+    "HexCode": "00001F"
+  },
+  {
+    "red": 159,
+    "green": 191,
+    "blue": 223,
+    "HexCode": "9FBFDF"
+  },
+  {
+    "red": 255,
+    "green": 127,
+    "blue": 223,
+    "HexCode": "FF7FDF"
+  },
+  {
+    "red": 0,
+    "green": 31,
+    "blue": 63,
+    "HexCode": "001F3F"
+  },
+  {
+    "red": 191,
+    "green": 31,
+    "blue": 159,
+    "HexCode": "BF1F9F"
+  },
+  {
+    "red": 63,
+    "green": 127,
+    "blue": 63,
+    "HexCode": "3F7F3F"
+  },
+  {
+    "red": 223,
+    "green": 95,
+    "blue": 223,
+    "HexCode": "DF5FDF"
+  },
+  {
+    "red": 31,
+    "green": 255,
+    "blue": 31,
+    "HexCode": "1FFF1F"
+  },
+  {
+    "red": 63,
+    "green": 223,
+    "blue": 31,
+    "HexCode": "3FDF1F"
+  },
+  {
+    "red": 191,
+    "green": 0,
+    "blue": 0,
+    "HexCode": "BF0000"
+  },
+  {
+    "red": 223,
+    "green": 223,
+    "blue": 159,
+    "HexCode": "DFDF9F"
+  },
+  {
+    "red": 95,
+    "green": 127,
+    "blue": 159,
+    "HexCode": "5F7F9F"
+  },
+  {
+    "red": 63,
+    "green": 31,
+    "blue": 0,
+    "HexCode": "3F1F00"
+  },
+  {
+    "red": 63,
+    "green": 95,
+    "blue": 191,
+    "HexCode": "3F5FBF"
+  },
+  {
+    "red": 223,
+    "green": 191,
+    "blue": 31,
+    "HexCode": "DFBF1F"
+  },
+  {
+    "red": 95,
+    "green": 0,
+    "blue": 255,
+    "HexCode": "5F00FF"
+  },
+  {
+    "red": 63,
+    "green": 191,
+    "blue": 0,
+    "HexCode": "3FBF00"
+  },
+  {
+    "red": 127,
+    "green": 95,
+    "blue": 255,
+    "HexCode": "7F5FFF"
+  },
+  {
+    "red": 31,
+    "green": 223,
+    "blue": 31,
+    "HexCode": "1FDF1F"
+  },
+  {
+    "red": 95,
+    "green": 63,
+    "blue": 223,
+    "HexCode": "5F3FDF"
+  },
+  {
+    "red": 95,
+    "green": 255,
+    "blue": 0,
+    "HexCode": "5FFF00"
+  },
+  {
+    "red": 0,
+    "green": 223,
+    "blue": 0,
+    "HexCode": "00DF00"
+  },
+  {
+    "red": 127,
+    "green": 0,
+    "blue": 255,
+    "HexCode": "7F00FF"
+  },
+  {
+    "red": 191,
+    "green": 127,
+    "blue": 223,
+    "HexCode": "BF7FDF"
+  },
+  {
+    "red": 127,
+    "green": 223,
+    "blue": 95,
+    "HexCode": "7FDF5F"
+  },
+  {
+    "red": 95,
+    "green": 63,
+    "blue": 0,
+    "HexCode": "5F3F00"
+  },
+  {
+    "red": 223,
+    "green": 127,
+    "blue": 31,
+    "HexCode": "DF7F1F"
+  },
+  {
+    "red": 31,
+    "green": 63,
+    "blue": 0,
+    "HexCode": "1F3F00"
+  },
+  {
+    "red": 63,
+    "green": 191,
+    "blue": 127,
+    "HexCode": "3FBF7F"
+  },
+  {
+    "red": 255,
+    "green": 159,
+    "blue": 127,
+    "HexCode": "FF9F7F"
+  },
+  {
+    "red": 31,
+    "green": 95,
+    "blue": 159,
+    "HexCode": "1F5F9F"
+  },
+  {
+    "red": 95,
+    "green": 255,
+    "blue": 127,
+    "HexCode": "5FFF7F"
+  },
+  {
+    "red": 95,
+    "green": 0,
+    "blue": 95,
+    "HexCode": "5F005F"
+  },
+  {
+    "red": 31,
+    "green": 127,
+    "blue": 0,
+    "HexCode": "1F7F00"
+  },
+  {
+    "red": 255,
+    "green": 127,
+    "blue": 63,
+    "HexCode": "FF7F3F"
+  },
+  {
+    "red": 63,
+    "green": 31,
+    "blue": 255,
+    "HexCode": "3F1FFF"
+  },
+  {
+    "red": 63,
+    "green": 255,
+    "blue": 0,
+    "HexCode": "3FFF00"
+  },
+  {
+    "red": 0,
+    "green": 223,
+    "blue": 63,
+    "HexCode": "00DF3F"
+  },
+  {
+    "red": 127,
+    "green": 223,
+    "blue": 63,
+    "HexCode": "7FDF3F"
+  },
+  {
+    "red": 0,
+    "green": 255,
+    "blue": 0,
+    "HexCode": "00FF00"
+  },
+  {
+    "red": 31,
+    "green": 127,
+    "blue": 191,
+    "HexCode": "1F7FBF"
+  },
+  {
+    "red": 191,
+    "green": 127,
+    "blue": 191,
+    "HexCode": "BF7FBF"
+  },
+  {
+    "red": 31,
+    "green": 191,
+    "blue": 31,
+    "HexCode": "1FBF1F"
+  },
+  {
+    "red": 191,
+    "green": 31,
+    "blue": 95,
+    "HexCode": "BF1F5F"
+  },
+  {
+    "red": 63,
+    "green": 255,
+    "blue": 159,
+    "HexCode": "3FFF9F"
+  },
+  {
+    "red": 255,
+    "green": 63,
+    "blue": 95,
+    "HexCode": "FF3F5F"
+  },
+  {
+    "red": 127,
+    "green": 255,
+    "blue": 31,
+    "HexCode": "7FFF1F"
+  },
+  {
+    "red": 95,
+    "green": 127,
+    "blue": 63,
+    "HexCode": "5F7F3F"
+  },
+  {
+    "red": 191,
+    "green": 255,
+    "blue": 127,
+    "HexCode": "BFFF7F"
+  },
+  {
+    "red": 95,
+    "green": 191,
+    "blue": 0,
+    "HexCode": "5FBF00"
+  },
+  {
+    "red": 95,
+    "green": 0,
+    "blue": 191,
+    "HexCode": "5F00BF"
+  },
+  {
+    "red": 159,
+    "green": 127,
+    "blue": 31,
+    "HexCode": "9F7F1F"
+  },
+  {
+    "red": 0,
+    "green": 95,
+    "blue": 191,
+    "HexCode": "005FBF"
+  },
+  {
+    "red": 63,
+    "green": 63,
+    "blue": 63,
+    "HexCode": "3F3F3F"
+  },
+  {
+    "red": 255,
+    "green": 95,
+    "blue": 63,
+    "HexCode": "FF5F3F"
+  },
+  {
+    "red": 255,
+    "green": 255,
+    "blue": 223,
+    "HexCode": "FFFFDF"
+  },
+  {
+    "red": 31,
+    "green": 159,
+    "blue": 95,
+    "HexCode": "1F9F5F"
+  },
+  {
+    "red": 255,
+    "green": 63,
+    "blue": 159,
+    "HexCode": "FF3F9F"
+  },
+  {
+    "red": 95,
+    "green": 31,
+    "blue": 31,
+    "HexCode": "5F1F1F"
+  },
+  {
+    "red": 0,
+    "green": 63,
+    "blue": 127,
+    "HexCode": "003F7F"
+  },
+  {
+    "red": 95,
+    "green": 127,
+    "blue": 191,
+    "HexCode": "5F7FBF"
+  },
+  {
+    "red": 127,
+    "green": 31,
+    "blue": 31,
+    "HexCode": "7F1F1F"
+  },
+  {
+    "red": 63,
+    "green": 0,
+    "blue": 0,
+    "HexCode": "3F0000"
+  },
+  {
+    "red": 31,
+    "green": 223,
+    "blue": 127,
+    "HexCode": "1FDF7F"
+  },
+  {
+    "red": 127,
+    "green": 63,
+    "blue": 0,
+    "HexCode": "7F3F00"
+  },
+  {
+    "red": 255,
+    "green": 95,
+    "blue": 95,
+    "HexCode": "FF5F5F"
+  },
+  {
+    "red": 0,
+    "green": 127,
+    "blue": 191,
+    "HexCode": "007FBF"
+  },
+  {
+    "red": 63,
+    "green": 0,
+    "blue": 95,
+    "HexCode": "3F005F"
+  },
+  {
+    "red": 255,
+    "green": 223,
+    "blue": 63,
+    "HexCode": "FFDF3F"
+  },
+  {
+    "red": 63,
+    "green": 191,
+    "blue": 95,
+    "HexCode": "3FBF5F"
+  },
+  {
+    "red": 223,
+    "green": 63,
+    "blue": 31,
+    "HexCode": "DF3F1F"
+  },
+  {
+    "red": 159,
+    "green": 191,
+    "blue": 31,
+    "HexCode": "9FBF1F"
+  },
+  {
+    "red": 0,
+    "green": 95,
+    "blue": 31,
+    "HexCode": "005F1F"
+  },
+  {
+    "red": 191,
+    "green": 223,
+    "blue": 191,
+    "HexCode": "BFDFBF"
+  },
+  {
+    "red": 255,
+    "green": 63,
+    "blue": 191,
+    "HexCode": "FF3FBF"
+  },
+  {
+    "red": 95,
+    "green": 31,
+    "blue": 127,
+    "HexCode": "5F1F7F"
+  },
+  {
+    "red": 127,
+    "green": 95,
+    "blue": 223,
+    "HexCode": "7F5FDF"
+  },
+  {
+    "red": 159,
+    "green": 31,
+    "blue": 95,
+    "HexCode": "9F1F5F"
+  },
+  {
+    "red": 159,
+    "green": 159,
+    "blue": 0,
+    "HexCode": "9F9F00"
+  },
+  {
+    "red": 127,
+    "green": 223,
+    "blue": 255,
+    "HexCode": "7FDFFF"
+  },
+  {
+    "red": 127,
+    "green": 95,
+    "blue": 127,
+    "HexCode": "7F5F7F"
+  },
+  {
+    "red": 127,
+    "green": 159,
+    "blue": 63,
+    "HexCode": "7F9F3F"
+  },
+  {
+    "red": 191,
+    "green": 223,
+    "blue": 127,
+    "HexCode": "BFDF7F"
+  },
+  {
+    "red": 255,
+    "green": 255,
+    "blue": 127,
+    "HexCode": "FFFF7F"
+  },
+  {
+    "red": 191,
+    "green": 95,
+    "blue": 223,
+    "HexCode": "BF5FDF"
+  },
+  {
+    "red": 159,
+    "green": 63,
+    "blue": 255,
+    "HexCode": "9F3FFF"
+  },
+  {
+    "red": 95,
+    "green": 95,
+    "blue": 159,
+    "HexCode": "5F5F9F"
+  },
+  {
+    "red": 0,
+    "green": 31,
+    "blue": 255,
+    "HexCode": "001FFF"
+  },
+  {
+    "red": 63,
+    "green": 31,
+    "blue": 159,
+    "HexCode": "3F1F9F"
+  },
+  {
+    "red": 191,
+    "green": 63,
+    "blue": 31,
+    "HexCode": "BF3F1F"
+  },
+  {
+    "red": 255,
+    "green": 0,
+    "blue": 63,
+    "HexCode": "FF003F"
+  },
+  {
+    "red": 223,
+    "green": 63,
+    "blue": 223,
+    "HexCode": "DF3FDF"
+  },
+  {
+    "red": 127,
+    "green": 0,
+    "blue": 95,
+    "HexCode": "7F005F"
+  },
+  {
+    "red": 223,
+    "green": 95,
+    "blue": 95,
+    "HexCode": "DF5F5F"
+  },
+  {
+    "red": 159,
+    "green": 95,
+    "blue": 159,
+    "HexCode": "9F5F9F"
+  },
+  {
+    "red": 223,
+    "green": 255,
+    "blue": 223,
+    "HexCode": "DFFFDF"
+  },
+  {
+    "red": 159,
+    "green": 127,
+    "blue": 191,
+    "HexCode": "9F7FBF"
+  },
+  {
+    "red": 127,
+    "green": 95,
+    "blue": 95,
+    "HexCode": "7F5F5F"
+  },
+  {
+    "red": 63,
+    "green": 255,
+    "blue": 127,
+    "HexCode": "3FFF7F"
+  },
+  {
+    "red": 63,
+    "green": 127,
+    "blue": 127,
+    "HexCode": "3F7F7F"
+  },
+  {
+    "red": 191,
+    "green": 63,
+    "blue": 159,
+    "HexCode": "BF3F9F"
+  },
+  {
+    "red": 31,
+    "green": 159,
+    "blue": 159,
+    "HexCode": "1F9F9F"
+  },
+  {
+    "red": 127,
+    "green": 255,
+    "blue": 127,
+    "HexCode": "7FFF7F"
+  },
+  {
+    "red": 159,
+    "green": 191,
+    "blue": 127,
+    "HexCode": "9FBF7F"
+  },
+  {
+    "red": 0,
+    "green": 255,
+    "blue": 191,
+    "HexCode": "00FFBF"
+  },
+  {
+    "red": 127,
+    "green": 0,
+    "blue": 159,
+    "HexCode": "7F009F"
+  },
+  {
+    "red": 0,
+    "green": 63,
+    "blue": 191,
+    "HexCode": "003FBF"
+  },
+  {
+    "red": 127,
+    "green": 63,
+    "blue": 191,
+    "HexCode": "7F3FBF"
+  },
+  {
+    "red": 255,
+    "green": 127,
+    "blue": 0,
+    "HexCode": "FF7F00"
+  },
+  {
+    "red": 127,
+    "green": 95,
+    "blue": 191,
+    "HexCode": "7F5FBF"
+  },
+  {
+    "red": 127,
+    "green": 31,
+    "blue": 95,
+    "HexCode": "7F1F5F"
+  },
+  {
+    "red": 255,
+    "green": 255,
+    "blue": 159,
+    "HexCode": "FFFF9F"
+  },
+  {
+    "red": 127,
+    "green": 191,
+    "blue": 127,
+    "HexCode": "7FBF7F"
+  },
+  {
+    "red": 95,
+    "green": 159,
+    "blue": 191,
+    "HexCode": "5F9FBF"
+  },
+  {
+    "red": 159,
+    "green": 159,
+    "blue": 191,
+    "HexCode": "9F9FBF"
+  },
+  {
+    "red": 159,
+    "green": 127,
+    "blue": 159,
+    "HexCode": "9F7F9F"
+  },
+  {
+    "red": 31,
+    "green": 95,
+    "blue": 31,
+    "HexCode": "1F5F1F"
+  },
+  {
+    "red": 191,
+    "green": 223,
+    "blue": 159,
+    "HexCode": "BFDF9F"
+  },
+  {
+    "red": 0,
+    "green": 191,
+    "blue": 159,
+    "HexCode": "00BF9F"
+  },
+  {
+    "red": 255,
+    "green": 31,
+    "blue": 191,
+    "HexCode": "FF1FBF"
+  },
+  {
+    "red": 223,
+    "green": 31,
+    "blue": 255,
+    "HexCode": "DF1FFF"
+  },
+  {
+    "red": 159,
+    "green": 95,
+    "blue": 223,
+    "HexCode": "9F5FDF"
+  },
+  {
+    "red": 95,
+    "green": 223,
+    "blue": 127,
+    "HexCode": "5FDF7F"
+  },
+  {
+    "red": 191,
+    "green": 223,
+    "blue": 0,
+    "HexCode": "BFDF00"
+  },
+  {
+    "red": 127,
+    "green": 95,
+    "blue": 63,
+    "HexCode": "7F5F3F"
+  },
+  {
+    "red": 63,
+    "green": 63,
+    "blue": 191,
+    "HexCode": "3F3FBF"
+  },
+  {
+    "red": 95,
+    "green": 63,
+    "blue": 63,
+    "HexCode": "5F3F3F"
+  },
+  {
+    "red": 31,
+    "green": 191,
+    "blue": 191,
+    "HexCode": "1FBFBF"
+  },
+  {
+    "red": 127,
+    "green": 0,
+    "blue": 223,
+    "HexCode": "7F00DF"
+  },
+  {
+    "red": 127,
+    "green": 127,
+    "blue": 95,
+    "HexCode": "7F7F5F"
+  },
+  {
+    "red": 31,
+    "green": 63,
+    "blue": 95,
+    "HexCode": "1F3F5F"
+  },
+  {
+    "red": 0,
+    "green": 255,
+    "blue": 223,
+    "HexCode": "00FFDF"
+  },
+  {
+    "red": 31,
+    "green": 223,
+    "blue": 159,
+    "HexCode": "1FDF9F"
+  },
+  {
+    "red": 0,
+    "green": 0,
+    "blue": 255,
+    "HexCode": "0000FF"
+  },
+  {
+    "red": 63,
+    "green": 63,
+    "blue": 0,
+    "HexCode": "3F3F00"
+  },
+  {
+    "red": 95,
+    "green": 191,
+    "blue": 255,
+    "HexCode": "5FBFFF"
+  },
+  {
+    "red": 31,
+    "green": 255,
+    "blue": 63,
+    "HexCode": "1FFF3F"
+  },
+  {
+    "red": 95,
+    "green": 0,
+    "blue": 223,
+    "HexCode": "5F00DF"
+  },
+  {
+    "red": 0,
+    "green": 0,
+    "blue": 63,
+    "HexCode": "00003F"
+  },
+  {
+    "red": 223,
+    "green": 255,
+    "blue": 95,
+    "HexCode": "DFFF5F"
+  },
+  {
+    "red": 223,
+    "green": 255,
+    "blue": 127,
+    "HexCode": "DFFF7F"
+  },
+  {
+    "red": 95,
+    "green": 159,
+    "blue": 63,
+    "HexCode": "5F9F3F"
+  },
+  {
+    "red": 223,
+    "green": 255,
+    "blue": 0,
+    "HexCode": "DFFF00"
+  },
+  {
+    "red": 0,
+    "green": 191,
+    "blue": 127,
+    "HexCode": "00BF7F"
+  },
+  {
+    "red": 0,
+    "green": 191,
+    "blue": 63,
+    "HexCode": "00BF3F"
+  },
+  {
+    "red": 191,
+    "green": 159,
+    "blue": 63,
+    "HexCode": "BF9F3F"
+  },
+  {
+    "red": 63,
+    "green": 31,
+    "blue": 31,
+    "HexCode": "3F1F1F"
+  },
+  {
+    "red": 0,
+    "green": 127,
+    "blue": 255,
+    "HexCode": "007FFF"
+  },
+  {
+    "red": 191,
+    "green": 191,
+    "blue": 63,
+    "HexCode": "BFBF3F"
+  },
+  {
+    "red": 159,
+    "green": 223,
+    "blue": 63,
+    "HexCode": "9FDF3F"
+  },
+  {
+    "red": 255,
+    "green": 0,
+    "blue": 0,
+    "HexCode": "FF0000"
+  },
+  {
+    "red": 191,
+    "green": 255,
+    "blue": 159,
+    "HexCode": "BFFF9F"
+  },
+  {
+    "red": 95,
+    "green": 95,
+    "blue": 223,
+    "HexCode": "5F5FDF"
+  },
+  {
+    "red": 127,
+    "green": 31,
+    "blue": 255,
+    "HexCode": "7F1FFF"
+  },
+  {
+    "red": 159,
+    "green": 223,
+    "blue": 223,
+    "HexCode": "9FDFDF"
+  },
+  {
+    "red": 63,
+    "green": 191,
+    "blue": 31,
+    "HexCode": "3FBF1F"
+  },
+  {
+    "red": 255,
+    "green": 31,
+    "blue": 0,
+    "HexCode": "FF1F00"
+  },
+  {
+    "red": 255,
+    "green": 31,
+    "blue": 95,
+    "HexCode": "FF1F5F"
+  },
+  {
+    "red": 127,
+    "green": 191,
+    "blue": 95,
+    "HexCode": "7FBF5F"
+  },
+  {
+    "red": 159,
+    "green": 63,
+    "blue": 0,
+    "HexCode": "9F3F00"
+  },
+  {
+    "red": 31,
+    "green": 95,
+    "blue": 95,
+    "HexCode": "1F5F5F"
+  },
+  {
+    "red": 63,
+    "green": 223,
+    "blue": 223,
+    "HexCode": "3FDFDF"
+  },
+  {
+    "red": 63,
+    "green": 63,
+    "blue": 255,
+    "HexCode": "3F3FFF"
+  },
+  {
+    "red": 0,
+    "green": 223,
+    "blue": 31,
+    "HexCode": "00DF1F"
+  },
+  {
+    "red": 0,
+    "green": 255,
+    "blue": 63,
+    "HexCode": "00FF3F"
+  },
+  {
+    "red": 191,
+    "green": 223,
+    "blue": 223,
+    "HexCode": "BFDFDF"
+  },
+  {
+    "red": 127,
+    "green": 63,
+    "blue": 255,
+    "HexCode": "7F3FFF"
+  },
+  {
+    "red": 223,
+    "green": 0,
+    "blue": 223,
+    "HexCode": "DF00DF"
+  },
+  {
+    "red": 223,
+    "green": 0,
+    "blue": 31,
+    "HexCode": "DF001F"
+  },
+  {
+    "red": 0,
+    "green": 127,
+    "blue": 127,
+    "HexCode": "007F7F"
+  },
+  {
+    "red": 63,
+    "green": 191,
+    "blue": 159,
+    "HexCode": "3FBF9F"
+  },
+  {
+    "red": 63,
+    "green": 127,
+    "blue": 159,
+    "HexCode": "3F7F9F"
+  },
+  {
+    "red": 159,
+    "green": 127,
+    "blue": 63,
+    "HexCode": "9F7F3F"
+  },
+  {
+    "red": 223,
+    "green": 191,
+    "blue": 159,
+    "HexCode": "DFBF9F"
+  },
+  {
+    "red": 95,
+    "green": 63,
+    "blue": 31,
+    "HexCode": "5F3F1F"
+  },
+  {
+    "red": 63,
+    "green": 31,
+    "blue": 95,
+    "HexCode": "3F1F5F"
+  },
+  {
+    "red": 95,
+    "green": 0,
+    "blue": 127,
+    "HexCode": "5F007F"
+  },
+  {
+    "red": 159,
+    "green": 63,
+    "blue": 31,
+    "HexCode": "9F3F1F"
+  },
+  {
+    "red": 0,
+    "green": 127,
+    "blue": 95,
+    "HexCode": "007F5F"
+  },
+  {
+    "red": 63,
+    "green": 255,
+    "blue": 191,
+    "HexCode": "3FFFBF"
+  },
+  {
+    "red": 223,
+    "green": 191,
+    "blue": 127,
+    "HexCode": "DFBF7F"
+  },
+  {
+    "red": 63,
+    "green": 95,
+    "blue": 127,
+    "HexCode": "3F5F7F"
+  },
+  {
+    "red": 255,
+    "green": 95,
+    "blue": 0,
+    "HexCode": "FF5F00"
+  },
+  {
+    "red": 95,
+    "green": 191,
+    "blue": 95,
+    "HexCode": "5FBF5F"
+  },
+  {
+    "red": 191,
+    "green": 95,
+    "blue": 63,
+    "HexCode": "BF5F3F"
+  },
+  {
+    "red": 191,
+    "green": 95,
+    "blue": 0,
+    "HexCode": "BF5F00"
+  },
+  {
+    "red": 31,
+    "green": 159,
+    "blue": 63,
+    "HexCode": "1F9F3F"
+  },
+  {
+    "red": 159,
+    "green": 255,
+    "blue": 223,
+    "HexCode": "9FFFDF"
+  },
+  {
+    "red": 63,
+    "green": 31,
+    "blue": 191,
+    "HexCode": "3F1FBF"
+  },
+  {
+    "red": 0,
+    "green": 223,
+    "blue": 127,
+    "HexCode": "00DF7F"
+  },
+  {
+    "red": 255,
+    "green": 191,
+    "blue": 223,
+    "HexCode": "FFBFDF"
+  },
+  {
+    "red": 255,
+    "green": 191,
+    "blue": 255,
+    "HexCode": "FFBFFF"
+  },
+  {
+    "red": 223,
+    "green": 159,
+    "blue": 255,
+    "HexCode": "DF9FFF"
+  },
+  {
+    "red": 159,
+    "green": 223,
+    "blue": 95,
+    "HexCode": "9FDF5F"
+  },
+  {
+    "red": 31,
+    "green": 63,
+    "blue": 127,
+    "HexCode": "1F3F7F"
+  },
+  {
+    "red": 31,
+    "green": 95,
+    "blue": 255,
+    "HexCode": "1F5FFF"
+  },
+  {
+    "red": 0,
+    "green": 63,
+    "blue": 95,
+    "HexCode": "003F5F"
+  },
+  {
+    "red": 191,
+    "green": 127,
+    "blue": 159,
+    "HexCode": "BF7F9F"
+  },
+  {
+    "red": 95,
+    "green": 159,
+    "blue": 159,
+    "HexCode": "5F9F9F"
+  },
+  {
+    "red": 255,
+    "green": 159,
+    "blue": 31,
+    "HexCode": "FF9F1F"
+  },
+  {
+    "red": 0,
+    "green": 159,
+    "blue": 127,
+    "HexCode": "009F7F"
+  },
+  {
+    "red": 63,
+    "green": 127,
+    "blue": 191,
+    "HexCode": "3F7FBF"
+  },
+  {
+    "red": 191,
+    "green": 95,
+    "blue": 191,
+    "HexCode": "BF5FBF"
+  },
+  {
+    "red": 223,
+    "green": 127,
+    "blue": 95,
+    "HexCode": "DF7F5F"
+  },
+  {
+    "red": 255,
+    "green": 223,
+    "blue": 159,
+    "HexCode": "FFDF9F"
+  },
+  {
+    "red": 159,
+    "green": 191,
+    "blue": 63,
+    "HexCode": "9FBF3F"
+  },
+  {
+    "red": 159,
+    "green": 255,
+    "blue": 95,
+    "HexCode": "9FFF5F"
+  },
+  {
+    "red": 0,
+    "green": 159,
+    "blue": 63,
+    "HexCode": "009F3F"
+  },
+  {
+    "red": 63,
+    "green": 223,
+    "blue": 191,
+    "HexCode": "3FDFBF"
+  },
+  {
+    "red": 127,
+    "green": 95,
+    "blue": 159,
+    "HexCode": "7F5F9F"
+  },
+  {
+    "red": 159,
+    "green": 0,
+    "blue": 159,
+    "HexCode": "9F009F"
+  },
+  {
+    "red": 31,
+    "green": 31,
+    "blue": 95,
+    "HexCode": "1F1F5F"
+  },
+  {
+    "red": 127,
+    "green": 159,
+    "blue": 223,
+    "HexCode": "7F9FDF"
+  },
+  {
+    "red": 0,
+    "green": 159,
+    "blue": 191,
+    "HexCode": "009FBF"
+  },
+  {
+    "red": 63,
+    "green": 159,
+    "blue": 127,
+    "HexCode": "3F9F7F"
+  },
+  {
+    "red": 159,
+    "green": 159,
+    "blue": 127,
+    "HexCode": "9F9F7F"
+  },
+  {
+    "red": 63,
+    "green": 255,
+    "blue": 63,
+    "HexCode": "3FFF3F"
+  },
+  {
+    "red": 223,
+    "green": 255,
+    "blue": 191,
+    "HexCode": "DFFFBF"
+  },
+  {
+    "red": 255,
+    "green": 31,
+    "blue": 159,
+    "HexCode": "FF1F9F"
+  },
+  {
+    "red": 31,
+    "green": 0,
+    "blue": 191,
+    "HexCode": "1F00BF"
+  },
+  {
+    "red": 159,
+    "green": 31,
+    "blue": 0,
+    "HexCode": "9F1F00"
+  },
+  {
+    "red": 31,
+    "green": 31,
+    "blue": 127,
+    "HexCode": "1F1F7F"
+  },
+  {
+    "red": 255,
+    "green": 95,
+    "blue": 159,
+    "HexCode": "FF5F9F"
+  },
+  {
+    "red": 0,
+    "green": 63,
+    "blue": 0,
+    "HexCode": "003F00"
+  },
+  {
+    "red": 191,
+    "green": 191,
+    "blue": 191,
+    "HexCode": "BFBFBF"
+  },
+  {
+    "red": 127,
+    "green": 223,
+    "blue": 31,
+    "HexCode": "7FDF1F"
+  },
+  {
+    "red": 95,
+    "green": 95,
+    "blue": 31,
+    "HexCode": "5F5F1F"
+  },
+  {
+    "red": 223,
+    "green": 159,
+    "blue": 159,
+    "HexCode": "DF9F9F"
+  },
+  {
+    "red": 255,
+    "green": 31,
+    "blue": 223,
+    "HexCode": "FF1FDF"
+  },
+  {
+    "red": 31,
+    "green": 223,
+    "blue": 63,
+    "HexCode": "1FDF3F"
+  },
+  {
+    "red": 223,
+    "green": 0,
+    "blue": 127,
+    "HexCode": "DF007F"
+  },
+  {
+    "red": 255,
+    "green": 159,
+    "blue": 191,
+    "HexCode": "FF9FBF"
+  },
+  {
+    "red": 127,
+    "green": 0,
+    "blue": 31,
+    "HexCode": "7F001F"
+  },
+  {
+    "red": 63,
+    "green": 223,
+    "blue": 63,
+    "HexCode": "3FDF3F"
+  },
+  {
+    "red": 255,
+    "green": 223,
+    "blue": 191,
+    "HexCode": "FFDFBF"
+  },
+  {
+    "red": 95,
+    "green": 31,
+    "blue": 95,
+    "HexCode": "5F1F5F"
+  },
+  {
+    "red": 223,
+    "green": 159,
+    "blue": 31,
+    "HexCode": "DF9F1F"
+  },
+  {
+    "red": 223,
+    "green": 159,
+    "blue": 95,
+    "HexCode": "DF9F5F"
+  },
+  {
+    "red": 127,
+    "green": 223,
+    "blue": 0,
+    "HexCode": "7FDF00"
+  },
+  {
+    "red": 191,
+    "green": 127,
+    "blue": 0,
+    "HexCode": "BF7F00"
+  },
+  {
+    "red": 95,
+    "green": 95,
+    "blue": 0,
+    "HexCode": "5F5F00"
+  },
+  {
+    "red": 95,
+    "green": 255,
+    "blue": 255,
+    "HexCode": "5FFFFF"
+  },
+  {
+    "red": 191,
+    "green": 31,
+    "blue": 0,
+    "HexCode": "BF1F00"
+  },
+  {
+    "red": 223,
+    "green": 223,
+    "blue": 223,
+    "HexCode": "DFDFDF"
+  },
+  {
+    "red": 159,
+    "green": 0,
+    "blue": 191,
+    "HexCode": "9F00BF"
+  },
+  {
+    "red": 31,
+    "green": 95,
+    "blue": 127,
+    "HexCode": "1F5F7F"
+  },
+  {
+    "red": 127,
+    "green": 0,
+    "blue": 63,
+    "HexCode": "7F003F"
+  },
+  {
+    "red": 223,
+    "green": 31,
+    "blue": 159,
+    "HexCode": "DF1F9F"
+  },
+  {
+    "red": 223,
+    "green": 255,
+    "blue": 255,
+    "HexCode": "DFFFFF"
+  },
+  {
+    "red": 191,
+    "green": 63,
+    "blue": 191,
+    "HexCode": "BF3FBF"
+  },
+  {
+    "red": 159,
+    "green": 95,
+    "blue": 63,
+    "HexCode": "9F5F3F"
+  },
+  {
+    "red": 63,
+    "green": 0,
+    "blue": 255,
+    "HexCode": "3F00FF"
+  },
+  {
+    "red": 0,
+    "green": 31,
+    "blue": 127,
+    "HexCode": "001F7F"
+  },
+  {
+    "red": 63,
+    "green": 95,
+    "blue": 255,
+    "HexCode": "3F5FFF"
+  },
+  {
+    "red": 255,
+    "green": 31,
+    "blue": 127,
+    "HexCode": "FF1F7F"
+  },
+  {
+    "red": 95,
+    "green": 223,
+    "blue": 63,
+    "HexCode": "5FDF3F"
+  },
+  {
+    "red": 191,
+    "green": 0,
+    "blue": 255,
+    "HexCode": "BF00FF"
+  },
+  {
+    "red": 223,
+    "green": 127,
+    "blue": 0,
+    "HexCode": "DF7F00"
+  },
+  {
+    "red": 95,
+    "green": 31,
+    "blue": 0,
+    "HexCode": "5F1F00"
+  },
+  {
+    "red": 0,
+    "green": 159,
+    "blue": 255,
+    "HexCode": "009FFF"
+  },
+  {
+    "red": 159,
+    "green": 255,
+    "blue": 191,
+    "HexCode": "9FFFBF"
+  },
+  {
+    "red": 127,
+    "green": 31,
+    "blue": 223,
+    "HexCode": "7F1FDF"
+  },
+  {
+    "red": 255,
+    "green": 127,
+    "blue": 191,
+    "HexCode": "FF7FBF"
+  },
+  {
+    "red": 95,
+    "green": 159,
+    "blue": 31,
+    "HexCode": "5F9F1F"
+  },
+  {
+    "red": 31,
+    "green": 31,
+    "blue": 31,
+    "HexCode": "1F1F1F"
+  },
+  {
+    "red": 159,
+    "green": 31,
+    "blue": 255,
+    "HexCode": "9F1FFF"
+  },
+  {
+    "red": 191,
+    "green": 191,
+    "blue": 95,
+    "HexCode": "BFBF5F"
+  },
+  {
+    "red": 31,
+    "green": 255,
+    "blue": 127,
+    "HexCode": "1FFF7F"
+  },
+  {
+    "red": 223,
+    "green": 127,
+    "blue": 223,
+    "HexCode": "DF7FDF"
+  },
+  {
+    "red": 0,
+    "green": 127,
+    "blue": 0,
+    "HexCode": "007F00"
+  },
+  {
+    "red": 127,
+    "green": 223,
+    "blue": 223,
+    "HexCode": "7FDFDF"
+  },
+  {
+    "red": 0,
+    "green": 191,
+    "blue": 31,
+    "HexCode": "00BF1F"
+  },
+  {
+    "red": 223,
+    "green": 223,
+    "blue": 255,
+    "HexCode": "DFDFFF"
+  },
+  {
+    "red": 95,
+    "green": 127,
+    "blue": 127,
+    "HexCode": "5F7F7F"
+  },
+  {
+    "red": 31,
+    "green": 0,
+    "blue": 255,
+    "HexCode": "1F00FF"
+  },
+  {
+    "red": 255,
+    "green": 95,
+    "blue": 127,
+    "HexCode": "FF5F7F"
+  },
+  {
+    "red": 0,
+    "green": 0,
+    "blue": 127,
+    "HexCode": "00007F"
+  },
+  {
+    "red": 223,
+    "green": 127,
+    "blue": 63,
+    "HexCode": "DF7F3F"
+  },
+  {
+    "red": 159,
+    "green": 223,
+    "blue": 0,
+    "HexCode": "9FDF00"
+  },
+  {
+    "red": 255,
+    "green": 0,
+    "blue": 31,
+    "HexCode": "FF001F"
+  },
+  {
+    "red": 95,
+    "green": 127,
+    "blue": 223,
+    "HexCode": "5F7FDF"
+  },
+  {
+    "red": 191,
+    "green": 63,
+    "blue": 255,
+    "HexCode": "BF3FFF"
+  },
+  {
+    "red": 127,
+    "green": 127,
+    "blue": 127,
+    "HexCode": "7F7F7F"
+  },
+  {
+    "red": 95,
+    "green": 223,
+    "blue": 159,
+    "HexCode": "5FDF9F"
+  },
+  {
+    "red": 95,
+    "green": 127,
+    "blue": 0,
+    "HexCode": "5F7F00"
+  },
+  {
+    "red": 223,
+    "green": 191,
+    "blue": 0,
+    "HexCode": "DFBF00"
+  },
+  {
+    "red": 31,
+    "green": 63,
+    "blue": 223,
+    "HexCode": "1F3FDF"
+  },
+  {
+    "red": 0,
+    "green": 191,
+    "blue": 0,
+    "HexCode": "00BF00"
+  },
+  {
+    "red": 223,
+    "green": 255,
+    "blue": 31,
+    "HexCode": "DFFF1F"
+  },
+  {
+    "red": 127,
+    "green": 127,
+    "blue": 255,
+    "HexCode": "7F7FFF"
+  },
+  {
+    "red": 159,
+    "green": 31,
+    "blue": 127,
+    "HexCode": "9F1F7F"
+  },
+  {
+    "red": 31,
+    "green": 95,
+    "blue": 63,
+    "HexCode": "1F5F3F"
+  },
+  {
+    "red": 0,
+    "green": 127,
+    "blue": 31,
+    "HexCode": "007F1F"
+  },
+  {
+    "red": 31,
+    "green": 191,
+    "blue": 223,
+    "HexCode": "1FBFDF"
+  },
+  {
+    "red": 255,
+    "green": 191,
+    "blue": 95,
+    "HexCode": "FFBF5F"
+  },
+  {
+    "red": 159,
+    "green": 159,
+    "blue": 31,
+    "HexCode": "9F9F1F"
+  },
+  {
+    "red": 63,
+    "green": 95,
+    "blue": 0,
+    "HexCode": "3F5F00"
+  },
+  {
+    "red": 31,
+    "green": 31,
+    "blue": 191,
+    "HexCode": "1F1FBF"
+  },
+  {
+    "red": 95,
+    "green": 191,
+    "blue": 191,
+    "HexCode": "5FBFBF"
+  },
+  {
+    "red": 159,
+    "green": 63,
+    "blue": 95,
+    "HexCode": "9F3F5F"
+  },
+  {
+    "red": 191,
+    "green": 191,
+    "blue": 127,
+    "HexCode": "BFBF7F"
+  },
+  {
+    "red": 159,
+    "green": 95,
+    "blue": 31,
+    "HexCode": "9F5F1F"
+  },
+  {
+    "red": 0,
+    "green": 223,
+    "blue": 191,
+    "HexCode": "00DFBF"
+  },
+  {
+    "red": 63,
+    "green": 191,
+    "blue": 63,
+    "HexCode": "3FBF3F"
+  },
+  {
+    "red": 191,
+    "green": 255,
+    "blue": 191,
+    "HexCode": "BFFFBF"
+  },
+  {
+    "red": 159,
+    "green": 223,
+    "blue": 255,
+    "HexCode": "9FDFFF"
+  },
+  {
+    "red": 255,
+    "green": 0,
+    "blue": 255,
+    "HexCode": "FF00FF"
+  },
+  {
+    "red": 127,
+    "green": 127,
+    "blue": 31,
+    "HexCode": "7F7F1F"
+  },
+  {
+    "red": 223,
+    "green": 0,
+    "blue": 63,
+    "HexCode": "DF003F"
+  },
+  {
+    "red": 0,
+    "green": 31,
+    "blue": 159,
+    "HexCode": "001F9F"
+  },
+  {
+    "red": 95,
+    "green": 255,
+    "blue": 95,
+    "HexCode": "5FFF5F"
+  },
+  {
+    "red": 0,
+    "green": 223,
+    "blue": 223,
+    "HexCode": "00DFDF"
+  },
+  {
+    "red": 0,
+    "green": 31,
+    "blue": 95,
+    "HexCode": "001F5F"
+  },
+  {
+    "red": 95,
+    "green": 191,
+    "blue": 31,
+    "HexCode": "5FBF1F"
+  },
+  {
+    "red": 191,
+    "green": 127,
+    "blue": 63,
+    "HexCode": "BF7F3F"
+  },
+  {
+    "red": 159,
+    "green": 127,
+    "blue": 95,
+    "HexCode": "9F7F5F"
+  },
+  {
+    "red": 31,
+    "green": 127,
+    "blue": 223,
+    "HexCode": "1F7FDF"
+  },
+  {
+    "red": 159,
+    "green": 0,
+    "blue": 95,
+    "HexCode": "9F005F"
+  },
+  {
+    "red": 191,
+    "green": 159,
+    "blue": 31,
+    "HexCode": "BF9F1F"
+  },
+  {
+    "red": 31,
+    "green": 191,
+    "blue": 255,
+    "HexCode": "1FBFFF"
+  },
+  {
+    "red": 191,
+    "green": 95,
+    "blue": 159,
+    "HexCode": "BF5F9F"
+  },
+  {
+    "red": 223,
+    "green": 159,
+    "blue": 0,
+    "HexCode": "DF9F00"
+  },
+  {
+    "red": 95,
+    "green": 255,
+    "blue": 223,
+    "HexCode": "5FFFDF"
+  },
+  {
+    "red": 31,
+    "green": 63,
+    "blue": 31,
+    "HexCode": "1F3F1F"
+  },
+  {
+    "red": 95,
+    "green": 223,
+    "blue": 255,
+    "HexCode": "5FDFFF"
+  },
+  {
+    "red": 63,
+    "green": 127,
+    "blue": 223,
+    "HexCode": "3F7FDF"
+  },
+  {
+    "red": 159,
+    "green": 95,
+    "blue": 0,
+    "HexCode": "9F5F00"
+  },
+  {
+    "red": 0,
+    "green": 31,
+    "blue": 0,
+    "HexCode": "001F00"
+  },
+  {
+    "red": 255,
+    "green": 191,
+    "blue": 191,
+    "HexCode": "FFBFBF"
+  },
+  {
+    "red": 127,
+    "green": 191,
+    "blue": 255,
+    "HexCode": "7FBFFF"
+  },
+  {
+    "red": 191,
+    "green": 127,
+    "blue": 127,
+    "HexCode": "BF7F7F"
+  },
+  {
+    "red": 223,
+    "green": 191,
+    "blue": 191,
+    "HexCode": "DFBFBF"
+  },
+  {
+    "red": 191,
+    "green": 95,
+    "blue": 127,
+    "HexCode": "BF5F7F"
+  },
+  {
+    "red": 63,
+    "green": 63,
+    "blue": 127,
+    "HexCode": "3F3F7F"
+  },
+  {
+    "red": 63,
+    "green": 191,
+    "blue": 255,
+    "HexCode": "3FBFFF"
+  },
+  {
+    "red": 31,
+    "green": 159,
+    "blue": 31,
+    "HexCode": "1F9F1F"
+  },
+  {
+    "red": 95,
+    "green": 95,
+    "blue": 191,
+    "HexCode": "5F5FBF"
+  },
+  {
+    "red": 95,
+    "green": 63,
+    "blue": 191,
+    "HexCode": "5F3FBF"
+  },
+  {
+    "red": 223,
+    "green": 63,
+    "blue": 255,
+    "HexCode": "DF3FFF"
+  },
+  {
+    "red": 127,
+    "green": 63,
+    "blue": 63,
+    "HexCode": "7F3F3F"
+  },
+  {
+    "red": 223,
+    "green": 223,
+    "blue": 31,
+    "HexCode": "DFDF1F"
+  },
+  {
+    "red": 127,
+    "green": 223,
+    "blue": 159,
+    "HexCode": "7FDF9F"
+  },
+  {
+    "red": 191,
+    "green": 63,
+    "blue": 223,
+    "HexCode": "BF3FDF"
+  },
+  {
+    "red": 31,
+    "green": 95,
+    "blue": 191,
+    "HexCode": "1F5FBF"
+  },
+  {
+    "red": 255,
+    "green": 255,
+    "blue": 31,
+    "HexCode": "FFFF1F"
+  },
+  {
+    "red": 191,
+    "green": 0,
+    "blue": 95,
+    "HexCode": "BF005F"
+  },
+  {
+    "red": 95,
+    "green": 63,
+    "blue": 255,
+    "HexCode": "5F3FFF"
+  },
+  {
+    "red": 191,
+    "green": 0,
+    "blue": 63,
+    "HexCode": "BF003F"
+  },
+  {
+    "red": 0,
+    "green": 223,
+    "blue": 255,
+    "HexCode": "00DFFF"
+  },
+  {
+    "red": 127,
+    "green": 255,
+    "blue": 191,
+    "HexCode": "7FFFBF"
+  },
+  {
+    "red": 223,
+    "green": 31,
+    "blue": 0,
+    "HexCode": "DF1F00"
+  },
+  {
+    "red": 127,
+    "green": 31,
+    "blue": 159,
+    "HexCode": "7F1F9F"
+  },
+  {
+    "red": 159,
+    "green": 255,
+    "blue": 159,
+    "HexCode": "9FFF9F"
+  },
+  {
+    "red": 95,
+    "green": 63,
+    "blue": 127,
+    "HexCode": "5F3F7F"
+  },
+  {
+    "red": 95,
+    "green": 255,
+    "blue": 159,
+    "HexCode": "5FFF9F"
+  },
+  {
+    "red": 255,
+    "green": 127,
+    "blue": 255,
+    "HexCode": "FF7FFF"
+  },
+  {
+    "red": 95,
+    "green": 31,
+    "blue": 191,
+    "HexCode": "5F1FBF"
+  },
+  {
+    "red": 127,
+    "green": 63,
+    "blue": 95,
+    "HexCode": "7F3F5F"
+  },
+  {
+    "red": 127,
+    "green": 0,
+    "blue": 191,
+    "HexCode": "7F00BF"
+  },
+  {
+    "red": 127,
+    "green": 255,
+    "blue": 63,
+    "HexCode": "7FFF3F"
+  },
+  {
+    "red": 159,
+    "green": 191,
+    "blue": 0,
+    "HexCode": "9FBF00"
+  },
+  {
+    "red": 159,
+    "green": 0,
+    "blue": 63,
+    "HexCode": "9F003F"
+  },
+  {
+    "red": 223,
+    "green": 31,
+    "blue": 95,
+    "HexCode": "DF1F5F"
+  },
+  {
+    "red": 63,
+    "green": 255,
+    "blue": 95,
+    "HexCode": "3FFF5F"
+  },
+  {
+    "red": 63,
+    "green": 127,
+    "blue": 0,
+    "HexCode": "3F7F00"
+  },
+  {
+    "red": 223,
+    "green": 159,
+    "blue": 223,
+    "HexCode": "DF9FDF"
+  },
+  {
+    "red": 255,
+    "green": 159,
+    "blue": 159,
+    "HexCode": "FF9F9F"
+  },
+  {
+    "red": 127,
+    "green": 127,
+    "blue": 191,
+    "HexCode": "7F7FBF"
+  },
+  {
+    "red": 63,
+    "green": 31,
+    "blue": 127,
+    "HexCode": "3F1F7F"
+  },
+  {
+    "red": 191,
+    "green": 31,
+    "blue": 127,
+    "HexCode": "BF1F7F"
+  },
+  {
+    "red": 127,
+    "green": 191,
+    "blue": 191,
+    "HexCode": "7FBFBF"
+  },
+  {
+    "red": 95,
+    "green": 63,
+    "blue": 95,
+    "HexCode": "5F3F5F"
+  },
+  {
+    "red": 127,
+    "green": 191,
+    "blue": 159,
+    "HexCode": "7FBF9F"
+  },
+  {
+    "red": 95,
+    "green": 0,
+    "blue": 0,
+    "HexCode": "5F0000"
+  },
+  {
+    "red": 255,
+    "green": 127,
+    "blue": 159,
+    "HexCode": "FF7F9F"
+  },
+  {
+    "red": 127,
+    "green": 255,
+    "blue": 159,
+    "HexCode": "7FFF9F"
+  },
+  {
+    "red": 0,
+    "green": 159,
+    "blue": 159,
+    "HexCode": "009F9F"
+  },
+  {
+    "red": 31,
+    "green": 127,
+    "blue": 95,
+    "HexCode": "1F7F5F"
+  },
+  {
+    "red": 159,
+    "green": 223,
+    "blue": 127,
+    "HexCode": "9FDF7F"
+  },
+  {
+    "red": 223,
+    "green": 159,
+    "blue": 191,
+    "HexCode": "DF9FBF"
+  },
+  {
+    "red": 63,
+    "green": 0,
+    "blue": 159,
+    "HexCode": "3F009F"
+  },
+  {
+    "red": 191,
+    "green": 255,
+    "blue": 255,
+    "HexCode": "BFFFFF"
+  },
+  {
+    "red": 31,
+    "green": 31,
+    "blue": 223,
+    "HexCode": "1F1FDF"
+  },
+  {
+    "red": 159,
+    "green": 63,
+    "blue": 191,
+    "HexCode": "9F3FBF"
+  },
+  {
+    "red": 223,
+    "green": 255,
+    "blue": 159,
+    "HexCode": "DFFF9F"
+  },
+  {
+    "red": 127,
+    "green": 159,
+    "blue": 191,
+    "HexCode": "7F9FBF"
+  },
+  {
+    "red": 159,
+    "green": 63,
+    "blue": 159,
+    "HexCode": "9F3F9F"
+  },
+  {
+    "red": 159,
+    "green": 31,
+    "blue": 223,
+    "HexCode": "9F1FDF"
+  },
+  {
+    "red": 63,
+    "green": 255,
+    "blue": 31,
+    "HexCode": "3FFF1F"
+  },
+  {
+    "red": 31,
+    "green": 0,
+    "blue": 63,
+    "HexCode": "1F003F"
+  },
+  {
+    "red": 95,
+    "green": 255,
+    "blue": 191,
+    "HexCode": "5FFFBF"
+  },
+  {
+    "red": 31,
+    "green": 159,
+    "blue": 191,
+    "HexCode": "1F9FBF"
+  },
+  {
+    "red": 95,
+    "green": 159,
+    "blue": 255,
+    "HexCode": "5F9FFF"
+  },
+  {
+    "red": 95,
+    "green": 127,
+    "blue": 255,
+    "HexCode": "5F7FFF"
+  },
+  {
+    "red": 159,
+    "green": 159,
+    "blue": 63,
+    "HexCode": "9F9F3F"
+  },
+  {
+    "red": 95,
+    "green": 0,
+    "blue": 63,
+    "HexCode": "5F003F"
+  },
+  {
+    "red": 127,
+    "green": 191,
+    "blue": 223,
+    "HexCode": "7FBFDF"
+  },
+  {
+    "red": 0,
+    "green": 159,
+    "blue": 31,
+    "HexCode": "009F1F"
+  },
+  {
+    "red": 0,
+    "green": 63,
+    "blue": 223,
+    "HexCode": "003FDF"
+  },
+  {
+    "red": 127,
+    "green": 95,
+    "blue": 31,
+    "HexCode": "7F5F1F"
+  },
+  {
+    "red": 223,
+    "green": 0,
+    "blue": 191,
+    "HexCode": "DF00BF"
+  },
+  {
+    "red": 159,
+    "green": 95,
+    "blue": 127,
+    "HexCode": "9F5F7F"
+  },
+  {
+    "red": 191,
+    "green": 159,
+    "blue": 223,
+    "HexCode": "BF9FDF"
+  },
+  {
+    "red": 95,
+    "green": 223,
+    "blue": 95,
+    "HexCode": "5FDF5F"
+  },
+  {
+    "red": 223,
+    "green": 63,
+    "blue": 63,
+    "HexCode": "DF3F3F"
+  },
+  {
+    "red": 223,
+    "green": 159,
+    "blue": 63,
+    "HexCode": "DF9F3F"
+  },
+  {
+    "red": 31,
+    "green": 63,
+    "blue": 191,
+    "HexCode": "1F3FBF"
+  },
+  {
+    "red": 63,
+    "green": 159,
+    "blue": 95,
+    "HexCode": "3F9F5F"
+  },
+  {
+    "red": 63,
+    "green": 63,
+    "blue": 95,
+    "HexCode": "3F3F5F"
+  },
+  {
+    "red": 31,
+    "green": 63,
+    "blue": 159,
+    "HexCode": "1F3F9F"
+  },
+  {
+    "red": 0,
+    "green": 63,
+    "blue": 31,
+    "HexCode": "003F1F"
+  },
+  {
+    "red": 63,
+    "green": 0,
+    "blue": 127,
+    "HexCode": "3F007F"
+  },
+  {
+    "red": 127,
+    "green": 191,
+    "blue": 0,
+    "HexCode": "7FBF00"
+  },
+  {
+    "red": 223,
+    "green": 223,
+    "blue": 63,
+    "HexCode": "DFDF3F"
+  },
+  {
+    "red": 63,
+    "green": 159,
+    "blue": 63,
+    "HexCode": "3F9F3F"
+  },
+  {
+    "red": 0,
+    "green": 159,
+    "blue": 95,
+    "HexCode": "009F5F"
+  },
+  {
+    "red": 31,
+    "green": 127,
+    "blue": 255,
+    "HexCode": "1F7FFF"
+  },
+  {
+    "red": 127,
+    "green": 255,
+    "blue": 95,
+    "HexCode": "7FFF5F"
+  },
+  {
+    "red": 63,
+    "green": 0,
+    "blue": 191,
+    "HexCode": "3F00BF"
+  },
+  {
+    "red": 0,
+    "green": 63,
+    "blue": 255,
+    "HexCode": "003FFF"
+  },
+  {
+    "red": 255,
+    "green": 159,
+    "blue": 63,
+    "HexCode": "FF9F3F"
+  },
+  {
+    "red": 191,
+    "green": 255,
+    "blue": 223,
+    "HexCode": "BFFFDF"
+  },
+  {
+    "red": 31,
+    "green": 255,
+    "blue": 223,
+    "HexCode": "1FFFDF"
+  },
+  {
+    "red": 223,
+    "green": 31,
+    "blue": 63,
+    "HexCode": "DF1F3F"
+  },
+  {
+    "red": 0,
+    "green": 127,
+    "blue": 63,
+    "HexCode": "007F3F"
+  },
+  {
+    "red": 95,
+    "green": 191,
+    "blue": 159,
+    "HexCode": "5FBF9F"
+  },
+  {
+    "red": 127,
+    "green": 31,
+    "blue": 0,
+    "HexCode": "7F1F00"
+  },
+  {
+    "red": 159,
+    "green": 95,
+    "blue": 95,
+    "HexCode": "9F5F5F"
+  },
+  {
+    "red": 31,
+    "green": 223,
+    "blue": 95,
+    "HexCode": "1FDF5F"
+  },
+  {
+    "red": 223,
+    "green": 63,
+    "blue": 95,
+    "HexCode": "DF3F5F"
+  },
+  {
+    "red": 191,
+    "green": 0,
+    "blue": 127,
+    "HexCode": "BF007F"
+  },
+  {
+    "red": 191,
+    "green": 31,
+    "blue": 31,
+    "HexCode": "BF1F1F"
+  },
+  {
+    "red": 191,
+    "green": 191,
+    "blue": 31,
+    "HexCode": "BFBF1F"
+  },
+  {
+    "red": 127,
+    "green": 31,
+    "blue": 191,
+    "HexCode": "7F1FBF"
+  },
+  {
+    "red": 95,
+    "green": 223,
+    "blue": 191,
+    "HexCode": "5FDFBF"
+  },
+  {
+    "red": 159,
+    "green": 255,
+    "blue": 31,
+    "HexCode": "9FFF1F"
+  },
+  {
+    "red": 191,
+    "green": 0,
+    "blue": 159,
+    "HexCode": "BF009F"
+  },
+  {
+    "red": 95,
+    "green": 223,
+    "blue": 0,
+    "HexCode": "5FDF00"
+  },
+  {
+    "red": 191,
+    "green": 95,
+    "blue": 31,
+    "HexCode": "BF5F1F"
+  },
+  {
+    "red": 95,
+    "green": 31,
+    "blue": 255,
+    "HexCode": "5F1FFF"
+  },
+  {
+    "red": 63,
+    "green": 223,
+    "blue": 0,
+    "HexCode": "3FDF00"
+  },
+  {
+    "red": 31,
+    "green": 63,
+    "blue": 63,
+    "HexCode": "1F3F3F"
+  },
+  {
+    "red": 255,
+    "green": 31,
+    "blue": 255,
+    "HexCode": "FF1FFF"
+  },
+  {
+    "red": 0,
+    "green": 159,
+    "blue": 223,
+    "HexCode": "009FDF"
+  },
+  {
+    "red": 255,
+    "green": 127,
+    "blue": 127,
+    "HexCode": "FF7F7F"
+  },
+  {
+    "red": 127,
+    "green": 255,
+    "blue": 223,
+    "HexCode": "7FFFDF"
+  },
+  {
+    "red": 31,
+    "green": 223,
+    "blue": 255,
+    "HexCode": "1FDFFF"
+  },
+  {
+    "red": 255,
+    "green": 191,
+    "blue": 31,
+    "HexCode": "FFBF1F"
+  },
+  {
+    "red": 31,
+    "green": 159,
+    "blue": 255,
+    "HexCode": "1F9FFF"
+  },
+  {
+    "red": 0,
+    "green": 95,
+    "blue": 0,
+    "HexCode": "005F00"
+  },
+  {
+    "red": 159,
+    "green": 191,
+    "blue": 159,
+    "HexCode": "9FBF9F"
+  },
+  {
+    "red": 127,
+    "green": 159,
+    "blue": 127,
+    "HexCode": "7F9F7F"
+  },
+  {
+    "red": 191,
+    "green": 191,
+    "blue": 223,
+    "HexCode": "BFBFDF"
+  },
+  {
+    "red": 255,
+    "green": 31,
+    "blue": 63,
+    "HexCode": "FF1F3F"
+  },
+  {
+    "red": 63,
+    "green": 95,
+    "blue": 31,
+    "HexCode": "3F5F1F"
+  },
+  {
+    "red": 191,
+    "green": 159,
+    "blue": 159,
+    "HexCode": "BF9F9F"
+  },
+  {
+    "red": 223,
+    "green": 63,
+    "blue": 0,
+    "HexCode": "DF3F00"
+  },
+  {
+    "red": 31,
+    "green": 223,
+    "blue": 223,
+    "HexCode": "1FDFDF"
+  },
+  {
+    "red": 255,
+    "green": 0,
+    "blue": 159,
+    "HexCode": "FF009F"
+  },
+  {
+    "red": 127,
+    "green": 0,
+    "blue": 127,
+    "HexCode": "7F007F"
+  },
+  {
+    "red": 127,
+    "green": 127,
+    "blue": 159,
+    "HexCode": "7F7F9F"
+  },
+  {
+    "red": 127,
+    "green": 127,
+    "blue": 0,
+    "HexCode": "7F7F00"
+  },
+  {
+    "red": 223,
+    "green": 63,
+    "blue": 191,
+    "HexCode": "DF3FBF"
+  },
+  {
+    "red": 0,
+    "green": 95,
+    "blue": 127,
+    "HexCode": "005F7F"
+  },
+  {
+    "red": 95,
+    "green": 255,
+    "blue": 63,
+    "HexCode": "5FFF3F"
+  },
+  {
+    "red": 159,
+    "green": 191,
+    "blue": 255,
+    "HexCode": "9FBFFF"
+  },
+  {
+    "red": 31,
+    "green": 223,
+    "blue": 0,
+    "HexCode": "1FDF00"
+  },
+  {
+    "red": 0,
+    "green": 191,
+    "blue": 95,
+    "HexCode": "00BF5F"
+  },
+  {
+    "red": 63,
+    "green": 159,
+    "blue": 223,
+    "HexCode": "3F9FDF"
+  },
+  {
+    "red": 191,
+    "green": 191,
+    "blue": 159,
+    "HexCode": "BFBF9F"
+  },
+  {
+    "red": 191,
+    "green": 63,
+    "blue": 127,
+    "HexCode": "BF3F7F"
+  },
+  {
+    "red": 255,
+    "green": 0,
+    "blue": 127,
+    "HexCode": "FF007F"
+  },
+  {
+    "red": 0,
+    "green": 95,
+    "blue": 63,
+    "HexCode": "005F3F"
+  },
+  {
+    "red": 159,
+    "green": 255,
+    "blue": 63,
+    "HexCode": "9FFF3F"
+  },
+  {
+    "red": 95,
+    "green": 31,
+    "blue": 223,
+    "HexCode": "5F1FDF"
+  },
+  {
+    "red": 95,
+    "green": 95,
+    "blue": 127,
+    "HexCode": "5F5F7F"
+  },
+  {
+    "red": 63,
+    "green": 127,
+    "blue": 31,
+    "HexCode": "3F7F1F"
+  },
+  {
+    "red": 191,
+    "green": 255,
+    "blue": 31,
+    "HexCode": "BFFF1F"
+  },
+  {
+    "red": 0,
+    "green": 63,
+    "blue": 159,
+    "HexCode": "003F9F"
+  },
+  {
+    "red": 0,
+    "green": 31,
+    "blue": 31,
+    "HexCode": "001F1F"
+  },
+  {
+    "red": 0,
+    "green": 31,
+    "blue": 223,
+    "HexCode": "001FDF"
+  },
+  {
+    "red": 31,
+    "green": 255,
+    "blue": 159,
+    "HexCode": "1FFF9F"
+  },
+  {
+    "red": 159,
+    "green": 63,
+    "blue": 127,
+    "HexCode": "9F3F7F"
+  },
+  {
+    "red": 63,
+    "green": 223,
+    "blue": 95,
+    "HexCode": "3FDF5F"
+  },
+  {
+    "red": 223,
+    "green": 31,
+    "blue": 31,
+    "HexCode": "DF1F1F"
+  },
+  {
+    "red": 31,
+    "green": 159,
+    "blue": 0,
+    "HexCode": "1F9F00"
+  },
+  {
+    "red": 255,
+    "green": 223,
+    "blue": 255,
+    "HexCode": "FFDFFF"
+  },
+  {
+    "red": 255,
+    "green": 191,
+    "blue": 63,
+    "HexCode": "FFBF3F"
+  },
+  {
+    "red": 127,
+    "green": 159,
+    "blue": 95,
+    "HexCode": "7F9F5F"
+  },
+  {
+    "red": 255,
+    "green": 191,
+    "blue": 0,
+    "HexCode": "FFBF00"
+  },
+  {
+    "red": 159,
+    "green": 127,
+    "blue": 255,
+    "HexCode": "9F7FFF"
+  },
+  {
+    "red": 31,
+    "green": 0,
+    "blue": 95,
+    "HexCode": "1F005F"
+  },
+  {
+    "red": 159,
+    "green": 31,
+    "blue": 159,
+    "HexCode": "9F1F9F"
+  },
+  {
+    "red": 191,
+    "green": 223,
+    "blue": 255,
+    "HexCode": "BFDFFF"
+  },
+  {
+    "red": 0,
+    "green": 223,
+    "blue": 159,
+    "HexCode": "00DF9F"
+  },
+  {
+    "red": 255,
+    "green": 63,
+    "blue": 127,
+    "HexCode": "FF3F7F"
+  },
+  {
+    "red": 159,
+    "green": 63,
+    "blue": 223,
+    "HexCode": "9F3FDF"
+  },
+  {
+    "red": 159,
+    "green": 95,
+    "blue": 255,
+    "HexCode": "9F5FFF"
+  },
+  {
+    "red": 0,
+    "green": 31,
+    "blue": 191,
+    "HexCode": "001FBF"
+  },
+  {
+    "red": 191,
+    "green": 63,
+    "blue": 95,
+    "HexCode": "BF3F5F"
+  },
+  {
+    "red": 31,
+    "green": 255,
+    "blue": 255,
+    "HexCode": "1FFFFF"
+  },
+  {
+    "red": 63,
+    "green": 159,
+    "blue": 255,
+    "HexCode": "3F9FFF"
+  },
+  {
+    "red": 255,
+    "green": 223,
+    "blue": 0,
+    "HexCode": "FFDF00"
+  },
+  {
+    "red": 191,
+    "green": 63,
+    "blue": 0,
+    "HexCode": "BF3F00"
+  },
+  {
+    "red": 223,
+    "green": 63,
+    "blue": 127,
+    "HexCode": "DF3F7F"
+  },
+  {
+    "red": 31,
+    "green": 95,
+    "blue": 0,
+    "HexCode": "1F5F00"
+  },
+  {
+    "red": 31,
+    "green": 191,
+    "blue": 159,
+    "HexCode": "1FBF9F"
+  },
+  {
+    "red": 191,
+    "green": 255,
+    "blue": 95,
+    "HexCode": "BFFF5F"
+  },
+  {
+    "red": 223,
+    "green": 63,
+    "blue": 159,
+    "HexCode": "DF3F9F"
+  },
+  {
+    "red": 127,
+    "green": 159,
+    "blue": 255,
+    "HexCode": "7F9FFF"
+  },
+  {
+    "red": 191,
+    "green": 127,
+    "blue": 255,
+    "HexCode": "BF7FFF"
+  },
+  {
+    "red": 31,
+    "green": 127,
+    "blue": 31,
+    "HexCode": "1F7F1F"
+  },
+  {
+    "red": 191,
+    "green": 0,
+    "blue": 191,
+    "HexCode": "BF00BF"
+  },
+  {
+    "red": 255,
+    "green": 159,
+    "blue": 95,
+    "HexCode": "FF9F5F"
+  },
+  {
+    "red": 63,
+    "green": 255,
+    "blue": 223,
+    "HexCode": "3FFFDF"
+  },
+  {
+    "red": 95,
+    "green": 191,
+    "blue": 127,
+    "HexCode": "5FBF7F"
+  },
+  {
+    "red": 95,
+    "green": 0,
+    "blue": 159,
+    "HexCode": "5F009F"
+  },
+  {
+    "red": 159,
+    "green": 223,
+    "blue": 191,
+    "HexCode": "9FDFBF"
+  },
+  {
+    "red": 63,
+    "green": 31,
+    "blue": 223,
+    "HexCode": "3F1FDF"
+  },
+  {
+    "red": 95,
+    "green": 31,
+    "blue": 63,
+    "HexCode": "5F1F3F"
+  },
+  {
+    "red": 127,
+    "green": 191,
+    "blue": 63,
+    "HexCode": "7FBF3F"
+  },
+  {
+    "red": 31,
+    "green": 127,
+    "blue": 159,
+    "HexCode": "1F7F9F"
+  },
+  {
+    "red": 191,
+    "green": 159,
+    "blue": 95,
+    "HexCode": "BF9F5F"
+  },
+  {
+    "red": 255,
+    "green": 95,
+    "blue": 191,
+    "HexCode": "FF5FBF"
+  },
+  {
+    "red": 191,
+    "green": 159,
+    "blue": 191,
+    "HexCode": "BF9FBF"
+  },
+  {
+    "red": 127,
+    "green": 191,
+    "blue": 31,
+    "HexCode": "7FBF1F"
+  },
+  {
+    "red": 255,
+    "green": 223,
+    "blue": 127,
+    "HexCode": "FFDF7F"
+  },
+  {
+    "red": 159,
+    "green": 255,
+    "blue": 0,
+    "HexCode": "9FFF00"
+  },
+  {
+    "red": 191,
+    "green": 159,
+    "blue": 255,
+    "HexCode": "BF9FFF"
+  },
+  {
+    "red": 223,
+    "green": 127,
+    "blue": 255,
+    "HexCode": "DF7FFF"
+  },
+  {
+    "red": 255,
+    "green": 223,
+    "blue": 223,
+    "HexCode": "FFDFDF"
+  },
+  {
+    "red": 255,
+    "green": 63,
+    "blue": 31,
+    "HexCode": "FF3F1F"
+  },
+  {
+    "red": 31,
+    "green": 191,
+    "blue": 95,
+    "HexCode": "1FBF5F"
+  },
+  {
+    "red": 255,
+    "green": 159,
+    "blue": 255,
+    "HexCode": "FF9FFF"
+  },
+  {
+    "red": 255,
+    "green": 63,
+    "blue": 255,
+    "HexCode": "FF3FFF"
+  },
+  {
+    "red": 63,
+    "green": 63,
+    "blue": 159,
+    "HexCode": "3F3F9F"
+  },
+  {
+    "red": 191,
+    "green": 31,
+    "blue": 255,
+    "HexCode": "BF1FFF"
+  },
+  {
+    "red": 191,
+    "green": 63,
+    "blue": 63,
+    "HexCode": "BF3F3F"
+  },
+  {
+    "red": 63,
+    "green": 127,
+    "blue": 255,
+    "HexCode": "3F7FFF"
+  },
+  {
+    "red": 95,
+    "green": 95,
+    "blue": 255,
+    "HexCode": "5F5FFF"
+  },
+  {
+    "red": 191,
+    "green": 223,
+    "blue": 63,
+    "HexCode": "BFDF3F"
+  },
+  {
+    "red": 191,
+    "green": 127,
+    "blue": 95,
+    "HexCode": "BF7F5F"
+  },
+  {
+    "red": 255,
+    "green": 255,
+    "blue": 0,
+    "HexCode": "FFFF00"
+  },
+  {
+    "red": 31,
+    "green": 0,
+    "blue": 0,
+    "HexCode": "1F0000"
+  },
+  {
+    "red": 159,
+    "green": 127,
+    "blue": 223,
+    "HexCode": "9F7FDF"
+  },
+  {
+    "red": 255,
+    "green": 63,
+    "blue": 0,
+    "HexCode": "FF3F00"
+  },
+  {
+    "red": 223,
+    "green": 0,
+    "blue": 159,
+    "HexCode": "DF009F"
+  },
+  {
+    "red": 223,
+    "green": 255,
+    "blue": 63,
+    "HexCode": "DFFF3F"
+  },
+  {
+    "red": 63,
+    "green": 95,
+    "blue": 159,
+    "HexCode": "3F5F9F"
+  },
+  {
+    "red": 223,
+    "green": 191,
+    "blue": 255,
+    "HexCode": "DFBFFF"
+  },
+  {
+    "red": 159,
+    "green": 95,
+    "blue": 191,
+    "HexCode": "9F5FBF"
+  },
+  {
+    "red": 95,
+    "green": 223,
+    "blue": 223,
+    "HexCode": "5FDFDF"
+  },
+  {
+    "red": 0,
+    "green": 191,
+    "blue": 255,
+    "HexCode": "00BFFF"
+  },
+  {
+    "red": 31,
+    "green": 191,
+    "blue": 63,
+    "HexCode": "1FBF3F"
+  },
+  {
+    "red": 127,
+    "green": 95,
+    "blue": 0,
+    "HexCode": "7F5F00"
+  },
+  {
+    "red": 63,
+    "green": 255,
+    "blue": 255,
+    "HexCode": "3FFFFF"
+  },
+  {
+    "red": 0,
+    "green": 0,
+    "blue": 159,
+    "HexCode": "00009F"
+  },
+  {
+    "red": 127,
+    "green": 223,
+    "blue": 127,
+    "HexCode": "7FDF7F"
+  },
+  {
+    "red": 95,
+    "green": 191,
+    "blue": 63,
+    "HexCode": "5FBF3F"
+  },
+  {
+    "red": 0,
+    "green": 159,
+    "blue": 0,
+    "HexCode": "009F00"
+  },
+  {
+    "red": 95,
+    "green": 127,
+    "blue": 31,
+    "HexCode": "5F7F1F"
+  },
+  {
+    "red": 63,
+    "green": 63,
+    "blue": 31,
+    "HexCode": "3F3F1F"
+  },
+  {
+    "red": 0,
+    "green": 255,
+    "blue": 255,
+    "HexCode": "00FFFF"
+  },
+  {
+    "red": 127,
+    "green": 223,
+    "blue": 191,
+    "HexCode": "7FDFBF"
+  },
+  {
+    "red": 255,
+    "green": 191,
+    "blue": 159,
+    "HexCode": "FFBF9F"
+  },
+  {
+    "red": 0,
+    "green": 127,
+    "blue": 223,
+    "HexCode": "007FDF"
+  },
+  {
+    "red": 95,
+    "green": 255,
+    "blue": 31,
+    "HexCode": "5FFF1F"
+  },
+  {
+    "red": 31,
+    "green": 255,
+    "blue": 95,
+    "HexCode": "1FFF5F"
+  },
+  {
+    "red": 191,
+    "green": 0,
+    "blue": 223,
+    "HexCode": "BF00DF"
+  },
+  {
+    "red": 31,
+    "green": 255,
+    "blue": 191,
+    "HexCode": "1FFFBF"
+  },
+  {
+    "red": 159,
+    "green": 255,
+    "blue": 255,
+    "HexCode": "9FFFFF"
+  },
+  {
+    "red": 159,
+    "green": 0,
+    "blue": 127,
+    "HexCode": "9F007F"
+  },
+  {
+    "red": 191,
+    "green": 31,
+    "blue": 63,
+    "HexCode": "BF1F3F"
+  },
+  {
+    "red": 159,
+    "green": 191,
+    "blue": 95,
+    "HexCode": "9FBF5F"
+  },
+  {
+    "red": 31,
+    "green": 31,
+    "blue": 159,
+    "HexCode": "1F1F9F"
+  },
+  {
+    "red": 95,
+    "green": 95,
+    "blue": 95,
+    "HexCode": "5F5F5F"
+  },
+  {
+    "red": 223,
+    "green": 0,
+    "blue": 0,
+    "HexCode": "DF0000"
+  },
+  {
+    "red": 31,
+    "green": 0,
+    "blue": 31,
+    "HexCode": "1F001F"
+  },
+  {
+    "red": 255,
+    "green": 223,
+    "blue": 95,
+    "HexCode": "FFDF5F"
+  },
+  {
+    "red": 255,
+    "green": 223,
+    "blue": 31,
+    "HexCode": "FFDF1F"
+  },
+  {
+    "red": 31,
+    "green": 127,
+    "blue": 63,
+    "HexCode": "1F7F3F"
+  },
+  {
+    "red": 223,
+    "green": 223,
+    "blue": 191,
+    "HexCode": "DFDFBF"
+  },
+  {
+    "red": 255,
+    "green": 63,
+    "blue": 63,
+    "HexCode": "FF3F3F"
+  },
+  {
+    "red": 191,
+    "green": 95,
+    "blue": 255,
+    "HexCode": "BF5FFF"
+  },
+  {
+    "red": 191,
+    "green": 191,
+    "blue": 255,
+    "HexCode": "BFBFFF"
+  },
+  {
+    "red": 31,
+    "green": 191,
+    "blue": 0,
+    "HexCode": "1FBF00"
+  },
+  {
+    "red": 31,
+    "green": 255,
+    "blue": 0,
+    "HexCode": "1FFF00"
+  },
+  {
+    "red": 0,
+    "green": 0,
+    "blue": 191,
+    "HexCode": "0000BF"
+  },
+  {
+    "red": 191,
+    "green": 159,
+    "blue": 0,
+    "HexCode": "BF9F00"
+  },
+  {
+    "red": 159,
+    "green": 127,
+    "blue": 127,
+    "HexCode": "9F7F7F"
+  },
+  {
+    "red": 31,
+    "green": 159,
+    "blue": 127,
+    "HexCode": "1F9F7F"
+  },
+  {
+    "red": 255,
+    "green": 159,
+    "blue": 223,
+    "HexCode": "FF9FDF"
+  },
+  {
+    "red": 63,
+    "green": 191,
+    "blue": 191,
+    "HexCode": "3FBFBF"
+  },
+  {
+    "red": 223,
+    "green": 31,
+    "blue": 191,
+    "HexCode": "DF1FBF"
+  },
+  {
+    "red": 31,
+    "green": 0,
+    "blue": 159,
+    "HexCode": "1F009F"
+  },
+  {
+    "red": 127,
+    "green": 0,
+    "blue": 0,
+    "HexCode": "7F0000"
+  },
+  {
+    "red": 255,
+    "green": 63,
+    "blue": 223,
+    "HexCode": "FF3FDF"
+  },
+  {
+    "red": 159,
+    "green": 31,
+    "blue": 31,
+    "HexCode": "9F1F1F"
+  },
+  {
+    "red": 159,
+    "green": 0,
+    "blue": 31,
+    "HexCode": "9F001F"
+  },
+  {
+    "red": 0,
+    "green": 223,
+    "blue": 95,
+    "HexCode": "00DF5F"
+  },
+  {
+    "red": 159,
+    "green": 63,
+    "blue": 63,
+    "HexCode": "9F3F3F"
+  },
+  {
+    "red": 159,
+    "green": 0,
+    "blue": 255,
+    "HexCode": "9F00FF"
+  },
+  {
+    "red": 0,
+    "green": 255,
+    "blue": 31,
+    "HexCode": "00FF1F"
+  },
+  {
+    "red": 31,
+    "green": 63,
+    "blue": 255,
+    "HexCode": "1F3FFF"
+  },
+  {
+    "red": 63,
+    "green": 159,
+    "blue": 191,
+    "HexCode": "3F9FBF"
+  },
+  {
+    "red": 31,
+    "green": 159,
+    "blue": 223,
+    "HexCode": "1F9FDF"
+  },
+  {
+    "red": 159,
+    "green": 159,
+    "blue": 95,
+    "HexCode": "9F9F5F"
+  },
+  {
+    "red": 95,
+    "green": 31,
+    "blue": 159,
+    "HexCode": "5F1F9F"
+  },
+  {
+    "red": 127,
+    "green": 159,
+    "blue": 0,
+    "HexCode": "7F9F00"
+  },
+  {
+    "red": 191,
+    "green": 0,
+    "blue": 31,
+    "HexCode": "BF001F"
+  },
+  {
+    "red": 31,
+    "green": 0,
+    "blue": 223,
+    "HexCode": "1F00DF"
+  },
+  {
+    "red": 127,
+    "green": 159,
+    "blue": 31,
+    "HexCode": "7F9F1F"
+  },
+  {
+    "red": 95,
+    "green": 159,
+    "blue": 127,
+    "HexCode": "5F9F7F"
+  },
+  {
+    "red": 127,
+    "green": 63,
+    "blue": 31,
+    "HexCode": "7F3F1F"
+  },
+  {
+    "red": 0,
+    "green": 0,
+    "blue": 223,
+    "HexCode": "0000DF"
+  },
+  {
+    "red": 31,
+    "green": 223,
+    "blue": 191,
+    "HexCode": "1FDFBF"
+  },
+  {
+    "red": 223,
+    "green": 95,
+    "blue": 31,
+    "HexCode": "DF5F1F"
+  },
+  {
+    "red": 95,
+    "green": 159,
+    "blue": 223,
+    "HexCode": "5F9FDF"
+  },
+  {
+    "red": 0,
+    "green": 0,
+    "blue": 0,
+    "HexCode": "000000"
+  },
+  {
+    "red": 63,
+    "green": 95,
+    "blue": 223,
+    "HexCode": "3F5FDF"
+  },
+  {
+    "red": 0,
+    "green": 95,
+    "blue": 95,
+    "HexCode": "005F5F"
+  },
+  {
+    "red": 31,
+    "green": 127,
+    "blue": 127,
+    "HexCode": "1F7F7F"
+  },
+  {
+    "red": 223,
+    "green": 223,
+    "blue": 95,
+    "HexCode": "DFDF5F"
+  },
+  {
+    "red": 127,
+    "green": 255,
+    "blue": 0,
+    "HexCode": "7FFF00"
+  },
+  {
+    "red": 127,
+    "green": 63,
+    "blue": 223,
+    "HexCode": "7F3FDF"
+  },
+  {
+    "red": 159,
+    "green": 223,
+    "blue": 31,
+    "HexCode": "9FDF1F"
+  },
+  {
+    "red": 95,
+    "green": 127,
+    "blue": 95,
+    "HexCode": "5F7F5F"
+  },
+  {
+    "red": 255,
+    "green": 0,
+    "blue": 191,
+    "HexCode": "FF00BF"
+  },
+  {
+    "red": 95,
+    "green": 159,
+    "blue": 0,
+    "HexCode": "5F9F00"
+  },
+  {
+    "red": 159,
+    "green": 31,
+    "blue": 191,
+    "HexCode": "9F1FBF"
+  },
+  {
+    "red": 255,
+    "green": 191,
+    "blue": 127,
+    "HexCode": "FFBF7F"
+  },
+  {
+    "red": 0,
+    "green": 95,
+    "blue": 223,
+    "HexCode": "005FDF"
+  },
+  {
+    "red": 223,
+    "green": 191,
+    "blue": 63,
+    "HexCode": "DFBF3F"
+  },
+  {
+    "red": 31,
+    "green": 31,
+    "blue": 0,
+    "HexCode": "1F1F00"
+  },
+  {
+    "red": 63,
+    "green": 95,
+    "blue": 95,
+    "HexCode": "3F5F5F"
+  },
+  {
+    "red": 95,
+    "green": 0,
+    "blue": 31,
+    "HexCode": "5F001F"
+  },
+  {
+    "red": 63,
+    "green": 159,
+    "blue": 159,
+    "HexCode": "3F9F9F"
+  },
+  {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "HexCode": "FFFFFF"
+  },
+  {
+    "red": 63,
+    "green": 191,
+    "blue": 223,
+    "HexCode": "3FBFDF"
+  },
+  {
+    "red": 255,
+    "green": 159,
+    "blue": 0,
+    "HexCode": "FF9F00"
+  },
+  {
+    "red": 0,
+    "green": 95,
+    "blue": 255,
+    "HexCode": "005FFF"
+  },
+  {
+    "red": 223,
+    "green": 95,
+    "blue": 127,
+    "HexCode": "DF5F7F"
+  },
+  {
+    "red": 159,
+    "green": 31,
+    "blue": 63,
+    "HexCode": "9F1F3F"
+  },
+  {
+    "red": 31,
+    "green": 191,
+    "blue": 127,
+    "HexCode": "1FBF7F"
+  },
+  {
+    "red": 159,
+    "green": 223,
+    "blue": 159,
+    "HexCode": "9FDF9F"
+  },
+  {
+    "red": 63,
+    "green": 127,
+    "blue": 95,
+    "HexCode": "3F7F5F"
+  },
+  {
+    "red": 255,
+    "green": 31,
+    "blue": 31,
+    "HexCode": "FF1F1F"
+  },
+  {
+    "red": 191,
+    "green": 223,
+    "blue": 31,
+    "HexCode": "BFDF1F"
+  },
+  {
+    "red": 255,
+    "green": 255,
+    "blue": 95,
+    "HexCode": "FFFF5F"
+  }
+]
