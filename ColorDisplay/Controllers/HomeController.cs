@@ -59,6 +59,13 @@ namespace ColorDisplay.Controllers
             return PartialView("_ColorGrid", data);
         }
 
+        [HttpPost]
+        public ActionResult Details(int red, int green, int blue)
+        {
+            return PartialView("_Details", new ColorModel(red, green, blue));
+        }
+        
+
         public static void Shuffle<T>(IList<T> list, int seed)
         {
             var rng = new Random(seed);

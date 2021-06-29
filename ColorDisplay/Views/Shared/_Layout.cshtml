@@ -21,7 +21,7 @@
             <a href="#about">About</a>
         </div>
 
-        <div class="container">
+        <div class="mainContainer">
             <main role="main" class="pb-3">
                 @RenderBody()
             </main>
@@ -41,10 +41,11 @@
         font-size: 1vw;
         background-color: lightgray;
         height: 100%;
+        
     }
 
     .main {
-        width: 100%;
+        width: 100%;       
     }
 
     header {
@@ -52,10 +53,10 @@
         background-color:darkslategray;
     }
 
-    .container {
-        padding-top:2vh;
-        padding-left:2vw;
-        width: 85%;
+    .mainContainer {
+        padding-top: 2vh;
+        padding-left: 15%;
+        text-align: center;
     }
 
     .sidebar {
@@ -84,8 +85,12 @@
         color: white;
     }
 
+    .sidebar a:hover {
+        cursor:pointer;
+    }
+
     .responsive {
-        height: 100%;
-        width: auto;
+        height: auto;
+        width: 100%;
     }
 </style>

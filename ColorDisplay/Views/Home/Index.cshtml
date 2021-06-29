@@ -7,113 +7,158 @@
 @model IndexViewModel;
 
 <div id="mainDiv">
-    <div id="colorGrid"><partial>@{Html.RenderPartial("_ColorGrid", Model.colors);}</partial></div>
+    <div id="colorGrid">
+        <partial>@{Html.RenderPartial("_ColorGrid", Model.colors);}</partial>       
+    </div>
     <div id="paginationDiv" class="pagination"></div>
+    
 </div>
 
-<script>
-    var currentPage = 1;
-    var totalPages = Math.ceil((@Model.total) / 12);
+<div class="modal fade" id="colorModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="partialViewContent">
 
-    $(document).ready(function() {
-        buildPagination();
-    });
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-    function buildPagination() {
-        var HTML = "";
-        if (totalPages <= 6) {
-            for (i = 1; i <= totalPages; i++) {
-              HTML += addButton(i);
-          }
+
+    <script>
+        var currentPage = 1;
+        var totalPages = Math.ceil((@Model.total) / 12);
+
+        $(document).ready(function() {
+            buildPagination();
+        });
+
+        function buildPagination() {
+            var HTML = "";
+            if (totalPages <= 6) {
+                for (i = 1; i <= totalPages; i++) {
+                  HTML += addButton(i);
+              }
+            }
+            else {
+
+                // Always print first page button
+                HTML += addButton("1");
+
+                // Print "..." only if currentPage is > 3
+                if (currentPage > 3) {
+                    HTML += "<a>...</a>";
+                }
+
+                // special case where last page is selected...
+                if (currentPage == totalPages) {
+                    HTML += addButton(currentPage - 2);
+                }
+
+                // Print previous number button if currentPage > 2
+                if (currentPage > 2) {
+                   HTML += addButton(currentPage - 1);
+                }
+
+                //Print current page number button as long as it not the first or last page
+                if (currentPage != 1 && currentPage != totalPages) {
+                   HTML += addButton(currentPage);
+                }
+
+                //print next number button if currentPage < lastPage - 1
+                if (currentPage < totalPages - 1) {
+                    HTML += addButton(currentPage + 1);
+                }
+
+                // special case where first page is selected...
+                if (currentPage == 1) {
+                    HTML += addButton(currentPage + 2);
+                }
+
+                //print "..." if currentPage is < lastPage -2
+                if (currentPage < totalPages - 2) {
+                   HTML += "<a>...</a>";
+                }
+
+                //Always print last page button if there is more than 1 page
+                HTML += addButton(totalPages);
+            }
+
+            document.getElementById("paginationDiv").innerHTML = HTML;
         }
-        else {
 
-            // Always print first page button
-            HTML += addButton("1");
-
-            // Print "..." only if currentPage is > 3
-            if (currentPage > 3) {
-                HTML += "<a>...</a>";
+        function addButton(number) {
+            var HTML = "<a"
+            if (number == currentPage) {
+                HTML +=" class =\"active\""
             }
-
-            // special case where last page is selected...
-            if (currentPage == totalPages) {
-                HTML += addButton(currentPage - 2);
-            }
-
-            // Print previous number button if currentPage > 2
-            if (currentPage > 2) {
-               HTML += addButton(currentPage - 1);
-            }
-
-            //Print current page number button as long as it not the first or last page
-            if (currentPage != 1 && currentPage != totalPages) {
-               HTML += addButton(currentPage);
-            }
-
-            //print next number button if currentPage < lastPage - 1
-            if (currentPage < totalPages - 1) {
-                HTML += addButton(currentPage + 1);
-            }
-
-            // special case where first page is selected...
-            if (currentPage == 1) {
-                HTML += addButton(currentPage + 2);
-            }
-
-            //print "..." if currentPage is < lastPage -2
-            if (currentPage < totalPages - 2) {
-               HTML += "<a>...</a>";
-            }
-
-            //Always print last page button if there is more than 1 page
-            HTML += addButton(totalPages);
+            HTML += " onclick =\"updateData(" + number + ")\">" + (number) + "</a>";
+            return HTML;
         }
 
-        document.getElementById("paginationDiv").innerHTML = HTML;
-    }
-
-    function addButton(number) {
-        var HTML = "<a"
-        if (number == currentPage) {
-            HTML +=" class =\"active\""
+        function updateData(number) {
+            var url = "Home/GetColors";
+            $('#colorGrid').load(url, { pageNumber: number }, function () {
+                currentPage = number;
+                buildPagination();
+            });
         }
-        HTML += " onclick =\"updateData(" + number + ")\">" + (number) + "</a>";
-        return HTML;
-    }
 
-    function updateData(number) {
-        var url = "Home/GetColors";
-        $('#colorGrid').load(url, { pageNumber: number });
-        currentPage = number;
-        buildPagination();
-    }
-</script>
+        function LoadDetails(red, green, blue) {
+            var url = "Home/Details";
+            $('#partialViewContent').load(url, { red: red, green: green, blue:blue }, function () {
+                $("#colorModal").modal("show"); 
+            });
+        }
 
-<style>
-    .pagination {
-        display: inline-block;
-    }
+        function closeModal() {
+            $("#colorModal").modal("hide"); 
+        }
+    </script>
 
-    .pagination a {
-        color: black;
-        float: left;
-        padding: 8px 16px;
-        text-decoration: none;
-    }
+    <style>
+        .pagination {
+            display: inline-block;
+        }
 
-    .pagination a.active {
-        background-color: #4CAF50;
-        color: white;
-        border-radius: 5px;
-    }
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
 
-    .pagination a:hover:not(.active) {
-        background-color: #ddd;
-        border-radius: 5px;
-    }
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
 
-    #mainDiv {
-        text-align: center;
-    }
-</style>
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+        .pagination a:hover {
+            cursor: pointer;
+        }
+
+        .modal{
+            padding: 0 !important;
+        }
+        .modal-dialog {
+            max-width: 60% !important;         
+        }
+
+        .modal-content {
+            border-radius: 0 !important;
+            height: 100%;
+        }
+    </style>

@@ -13,9 +13,12 @@
             @:<div class="row">
         }
         <div class="col-sm-3">
-            <div class="tile">
+            <div class="tile" data-toggle="modal" data-target="#colorModal" onclick="LoadDetails(@Model[i].red, @Model[i].green, @Model[i].blue)">
                 <div class="color-swatch" style="background-color:rgb(@Model[i].red, @Model[i].green, @Model[i].blue)"></div>
-                <div class="info">@Model[i].HexCode</div>
+                <div class="info">
+                    @Model[i].HexCode
+                    
+                </div>
             </div>
         </div>
         if (i % 4 == 3)
@@ -41,9 +44,17 @@
         z-index:0;
     }
 
+    .tile_no_hover {
+        height: 95%;
+        border-radius: 5px;
+        border: 2px solid black;
+        z-index:0;
+    }
+
     .tile:hover {
         transform: scale(1.1);
         z-index:1;
+        cursor: pointer;
     }
 
     .color-swatch {
@@ -52,6 +63,7 @@
 
     .info {
         height: 20%;
+        margin:auto;
     }
 </style>
 
