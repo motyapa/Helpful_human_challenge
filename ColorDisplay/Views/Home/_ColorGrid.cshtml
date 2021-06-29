@@ -4,6 +4,10 @@
     ViewData["Title"] = "_ColorGrid";
 }
 
+@*
+    This is the partial view for the 12 colors displayed at any time for a page.     
+*@
+
 @model List<ColorModel>
 
 <div class="container">
@@ -16,8 +20,7 @@
             <div class="tile" data-toggle="modal" data-target="#colorModal" onclick="loadDetails(@Model[i].red, @Model[i].green, @Model[i].blue)">
                 <div class="color-swatch" style="background-color:rgb(@Model[i].red, @Model[i].green, @Model[i].blue)"></div>
                 <div class="info">
-                    @Model[i].HexCode
-                    
+                    @Model[i].HexCode                   
                 </div>
             </div>
         </div>

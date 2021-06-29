@@ -4,14 +4,20 @@
     ViewData["Title"] = "Home Page";
 }
 
+@* 
+    This is the main div on the home page (everything besides the sidebar/header)    
+    There is the main color grid (_ColorGrid) that displays the relevant twelve colors to whatever page,
+    a pagination functionality to comb through the grid,
+    and a hidden modal pop up that will display the _Details partial view when a swatch/random is clicked.
+*@
+
 @model IndexViewModel;
 
 <div id="mainDiv">
     <div id="colorGrid">
         <partial>@{Html.RenderPartial("_ColorGrid", Model._colors);}</partial>       
     </div>
-    <div id="paginationDiv" class="pagination"></div>
-    
+    <div id="paginationDiv" class="pagination"></div>  
 </div>
 
 <div class="modal fade" id="colorModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -102,6 +108,7 @@
             return HTML;
         }
 
+        //Get the data for whatever page is clicked, update the grid and update the pagination div.
         function updateData(number) {
             var url = "Home/Colors";
             $('#colorGrid').load(url, { pageNumber: number }, function () {
@@ -110,6 +117,7 @@
             });
         }
 
+        //Get the detail for a particular swatch that was clicked to display in the modal
         function loadDetails(red, green, blue) {
             var url = "Home/Details";
             $('#partialViewContent').load(url, { red: red, green: green, blue:blue }, function () {

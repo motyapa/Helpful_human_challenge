@@ -1,16 +1,24 @@
 ﻿@using ColorDisplay.Models;
 
+@*
+    This is the pop up for when a user clicks either "Random" or a Swatch.
+    The format is to display the swatch clicked on the top as a large swatch,
+    and then 2 lighter shades, the swatch clicekd, and two darker shades underneath that are a bit smaller.
+*@
+
 @model List<ColorModel>;
 <div class="container" id="DetailsContainer">
     <div class="row" style="height:75%">
         <div class="col">
             <div class="tile_no_hover" data-toggle="modal" data-target="#colorModal">
+                @*The color swatch that was clicked will always be in the middle since we're displaying lighter shades, the swatch, then the darker shades*@
                 <div class="color-swatch" style="background-color:rgb(@Model[2].red, @Model[2].green, @Model[2].blue)"></div>
                 <div class="info" style="font-size:2vw">@Model[2].HexCode</div>
             </div>
         </div>
     </div>
     <div class="equal row" style="height:25%">
+        @*The List passed through, it was easier to generate from darkest to lightest first (see HomeController)*@
         @for (int i = 4; i >= 0; i--)
         {
             <div class="span2">
@@ -35,7 +43,6 @@
         height:60vh;
         max-width:90%;
     }
-
 </style>
 
 

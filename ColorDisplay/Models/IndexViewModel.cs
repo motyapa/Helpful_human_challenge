@@ -7,12 +7,12 @@ namespace ColorDisplay.Models
 {
     public class IndexViewModel
     {
-        public IndexViewModel(List<ColorModel> _colors, int total)
+        public IndexViewModel(List<ColorModel> colors, int total)
         {
-            this._colors = _colors;
+            this.colors = colors;
             this.total = total;
         }
-        public List<ColorModel> _colors { get; set; }
+        public List<ColorModel> colors { get; set; }
         public int total { get; set; }
     }
 }
