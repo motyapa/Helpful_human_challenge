@@ -101,6 +101,7 @@ At this point the "core" and "stretch" functionality is done and these stretch g
 -Add tints/shades in detail view 
 --> NOTE - I hardcoded the tint/shading values but it may be more beneficial to generate these values based on how close the rgb values are to either extreme. 
 For instance it makes no sense to shade already dark colors. Or we can change the for loops depending on the original values to include more shaded/tinted colors.
+I've also observed that blue colors tends to tint to gray values.
 
 -Color generation script guarantees same colors and order
 
