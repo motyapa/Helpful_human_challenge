@@ -60,14 +60,13 @@ One issue I see encountering is how do I define colors (i.e. at what point does 
 One solution is to overlap the search results. I.E. Some of the fringe cases for red will show up when the user filters by orange and vice versa.
 
 Table of color names:
-
 https://www.rapidtables.com/web/color/RGB_Color.html
 
 6/27 -> 
 I did some research and remembered that I can use a seed when generating the randomized file to eliminate the con of not being able to repeat 
 NOTE - In a real world scenario I would add the data to a database table, but for this challenge I am creating a json file to read the data from.
 
-Color generation algorithm - O(n^3) with an upper cap of O(256^3).
+Color generation algorithm - O((256/RGBStep)^3) with an upper cap of O(256^3).
 Shuffle algorithm - O(n) time complexity, uses the same List as the one generated so no extra memory being used there.
 
 When the app first starts, I create the json (if it doesn't exist). If the json exists, it deserializes it. In both instances then it saves it to a private variable with all of the RGB values.
@@ -80,16 +79,18 @@ I finished the grouping, details view, and Random. A few notes:
 For details view I opted for a modal pop-up instead of a new page. 
 I chose a pop-up for a few reasons - 
 1) I thought it would be simpler to implement
-2) I thought it might be nicer from a user perspective, it lets the user view the swatches and their gradients, then quickly exit 
+2) I thought it might be nicer from a user perspective, no page changing occurs. 
 3) No data has to be retrieved/cached for the user when they hit back/clear. 
 
-My implementation has a few drawbacks, mainly I had to pass the rgb values through to the controller and generate the model again. I couldn't figure out how to just pass the model through.
+My implementation has a few drawbacks, mainly I had to pass the rgb values through to the controller and generate the model again. I struggled to figure out how to just pass the model through.
 
-I attempted to add as much responsiveness as I could think of. For instance, when hovering over a page number the cursor changes to a click cursor and highlights the cell. Same with the side bar.
-When the user hovers over a swatch, the swatch gets slightly larger and the cursor becomes a click cursor.
-I checked in different ress (800 x 600).
+I attempted to add as much responsiveness as I could think of. 
 
-If the window is resized, the objects get resized as well (though if the browser becomes too small some weird stuff starts to happen with the grid and it's not working in mobile)
+This includes:
+-When hovering over a page number the cursor changes to a click cursor and highlights the cell. Same with the side bar.
+-When the user hovers over a swatch, the swatch gets slightly larger and the cursor becomes a click cursor.
+-I checked in different resolutions (800 x 600).
+-If the window is resized, the objects get resized as well (though if the browser becomes too small some weird stuff starts to happen with the grid and it's not working in mobile)
 
 It didn't seem necessary to make the swatches in the details view responsive to hover.
 
@@ -98,7 +99,8 @@ I considered doing it in a seperate method, but for simplicity I just used that 
 
 At this point the "core" and "stretch" functionality is done and these stretch goals (I believe I replicated the design sufficiently well):
 -Add tints/shades in detail view 
---NOTE - I hardcoded the tint/shading values but it may be more beneficial to generate these values based on how close the rgb values are to either extreme
+--> NOTE - I hardcoded the tint/shading values but it may be more beneficial to generate these values based on how close the rgb values are to either extreme. 
+For instance it makes no sense to shade already dark colors. Or we can change the for loops depending on the original values to include more shaded/tinted colors.
 
 -Color generation script guarantees same colors and order
 
@@ -107,3 +109,4 @@ For the remaining stretch goals:
 -Not experienced with GraphQL, anyway I'm loading data from JSON for this exercise (Just want to reiterate - in a real world scenario I would read from a database)
 
 I may explore "Group by Color", but at this point I'd rather refine what I already have.
+Published it to a service.
