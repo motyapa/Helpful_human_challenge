@@ -75,7 +75,7 @@ namespace ColorDisplay.Controllers
             for (int i = 2; i >= 1; i--)
             {
                 double multiplier = Math.Pow(_shadeMultiplier, i);
-                details.Add(new ColorModel(Convert.ToInt32(red * multiplier), Convert.ToInt32(green * multiplier), Convert.ToInt32(blue * multiplier)));
+                details.Add(new ColorModel(Convert.ToInt32(original.red * multiplier), Convert.ToInt32(original.green * multiplier), Convert.ToInt32(original.blue * multiplier)));
             }
             details.Add(original);
 
