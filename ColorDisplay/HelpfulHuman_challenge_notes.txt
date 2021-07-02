@@ -55,6 +55,8 @@ For the purposes of this challenge I will use an interval of 64. This seems reas
 -small enough to give a variety - (127, 0, 0) and (191, 0, 0) are pretty close, but different enough to the eye
 -enough for a user to comb over and display in a reasonable amount of pages (11ish)
 
+NOTE (see 6/29)-> I actually ended up using 32 as my step
+
 One issue I see encountering is how do I define colors (i.e. at what point does "red" stop being "red" and become "orange")
 
 One solution is to overlap the search results. I.E. Some of the fringe cases for red will show up when the user filters by orange and vice versa.
@@ -64,13 +66,15 @@ https://www.rapidtables.com/web/color/RGB_Color.html
 
 6/27 -> 
 I did some research and remembered that I can use a seed when generating the randomized file to eliminate the con of not being able to repeat 
-NOTE - In a real world scenario I would add the data to a database table, but for this challenge I am creating a json file to read the data from.
 
 Color generation algorithm - O((256/RGBStep)^3) with an upper cap of O(256^3).
 Shuffle algorithm - O(n) time complexity, uses the same List as the one generated so no extra memory being used there.
 
 When the app first starts, I create the json (if it doesn't exist). If the json exists, it deserializes it. In both instances then it saves it to a private variable with all of the RGB values.
 As the user paginates, they only retrieve the data needed for that particular page (12 elements at a time)
+
+UPDATE 6/29 -> I now retrieve the data from a database, I saved the script to generate the json at the bottom of the homecontroller and added the data from the json
+to the database.
 
 6/28 -> 
 So I accidentally deleted my first draft and wasn't able to restore it so I pretty much rebuilt where I was at from scratch (which includes yesterday's work + some front end work). I did roughly the same process outlined before.
@@ -137,3 +141,4 @@ Final thoughts -
 The current algorithm seems to be dominated by certain colors.
 -> Shading/Tinting algorithm - as mentioned, right now I'm just getting 2 shades/2 tints and calling it a day. May be worth it to investigate a better algo. For instance
 when black is selected, there's no need to get shades for it.
+-> The logo in the upper left hand is not ultra responsive. I would look into that as well.
