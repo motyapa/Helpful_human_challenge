@@ -110,8 +110,7 @@
 
         //Get the data for whatever page is clicked, update the grid and update the pagination div.
         function updateData(number) {
-            var url = "Home/Colors";
-            $('#colorGrid').load(url, { pageNumber: number }, function () {
+            $('#colorGrid').load("Home/Colors?pageNumber=" +  number, function () {
                 currentPage = number;
                 buildPagination();
             });
@@ -119,8 +118,7 @@
 
         //Get the detail for a particular swatch that was clicked to display in the modal
         function loadDetails(red, green, blue) {
-            var url = "Home/Details";
-            $('#partialViewContent').load(url, { red: red, green: green, blue: blue }, function () {
+            $('#partialViewContent').load("Home/Details?red=" + red  + "&green=" + green + "&blue=" + blue, function () {
                 $("#colorModal").modal("show"); 
             });
         }

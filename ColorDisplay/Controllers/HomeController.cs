@@ -31,7 +31,7 @@ namespace ColorDisplay.Controllers
         }     
 
         //Given a pagenumber, return the 12 (# of elements displayed) relevent to that page
-        [HttpPost]
+        [HttpGet]
         public ActionResult Colors(int pageNumber)
         {                    
             return PartialView("_ColorGrid", getDBColors(pageNumber));
@@ -39,7 +39,7 @@ namespace ColorDisplay.Controllers
 
         //For the details page, pass through the rgb values of the swatch selected
         //Also used for when the user hits random, then rgb values are -1.
-        [HttpPost]
+        [HttpGet]
         public ActionResult Details(int red, int green, int blue)
         {
             List<ColorModel> details = new List<ColorModel>();
